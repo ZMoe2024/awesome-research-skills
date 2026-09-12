@@ -1,7 +1,13 @@
 name: 收录资源
-description: 推荐一个有明确科研用途的 Skill、MCP 或工具
+description: 欢迎推荐或自荐科研 Skill、MCP、软件、在线工具、插件、脚本和工作流
 title: '[收录] '
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 把你做过、用过的好工具分享出来
+        欢迎作者自荐，也欢迎使用者推荐。只需填好项目名称、原项目链接和科研用途，其余信息选填。
+        有使用截图、示例结果或教程可以附上；未实测也可以推荐，请如实说明。
   - type: input
     id: name
     attributes:
@@ -20,17 +26,19 @@ body:
     attributes:
       label: 资源类型
       options:
-        - Skill
-        - Skill + MCP
-        - MCP
-        - MCP 套件
+        - AI 技能（Skill）
+        - AI 技能 + 工具连接（Skill + MCP）
+        - 工具连接服务（MCP）
+        - 工具连接套件（MCP）
+        - 桌面软件
+        - 在线工具
+        - 脚本／命令行工具（CLI）
         - 工具包
         - 插件
-        - CLI
-        - 工具
         - 工作流
+        - 暂不确定
     validations:
-      required: true
+      required: false
   - type: textarea
     id: purpose
     attributes:
@@ -42,6 +50,11 @@ body:
     id: evidence
     attributes:
       label: 信息来源与使用条件
-      description: 请说明是否实测，以及已知的客户端、依赖、费用或限制。未实测也可以提交。
+      description: 选填。可以说明你是作者还是使用者、是否实测，以及已知的客户端、依赖、费用或限制。
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: 使用截图、示例结果或教程
+      description: 选填。欢迎分享一次实际使用的过程和结果，也可以附原作者的教程链接。

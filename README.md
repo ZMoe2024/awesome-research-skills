@@ -15,6 +15,18 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 [访问网站](https://skill.createsci.com/) · [使用指南](https://skill.createsci.com/guides) · [实践案例](https://skill.createsci.com/cases) · [教程计划](TUTORIALS.md) · [贡献资源](CONTRIBUTING.md)
 
+## 征集：把你做过、用过的好工具分享出来
+
+你有没有做过一个能省下重复劳动的科研工具，或用过一个想推荐给同行的项目？欢迎来这里分享。
+
+**科研 AI 技能（Skill）、工具连接服务（MCP）、桌面软件、在线工具、插件、脚本和工作流，都欢迎。** 查文献、读论文、分析数据、画科研图、准备汇报、操作专业软件，只要能解决一个具体问题，就值得介绍。
+
+欢迎作者自荐，也欢迎使用者推荐。投稿只需写清楚：**项目叫什么、链接在哪里、能解决什么问题**。如果有使用截图、示例结果或上手教程，也欢迎一起附上；尚未实测请如实说明。
+
+我们会核对项目来源与用途，收录时保留原项目链接和来源信息，尊重作者署名与许可。有完整实践记录的项目，也欢迎参与后续教程和案例共建。
+
+**[推荐／自荐一个工具](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=add-resource.yml)** · [查看投稿说明](CONTRIBUTING.md) · [分享教程选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)
+
 **[查看资源清单](lists/all.md)**：311 项资源，另有 5 条候选与待核验记录。按具体项目或工具条目整理，用途与可用性以原项目文档为准。
 
 ## 全部目录
