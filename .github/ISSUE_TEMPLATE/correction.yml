@@ -1,0 +1,17 @@
+name: 更正或失效链接
+description: 更正用途、类型、重复条目或来源链接
+title: '[更正] '
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: 条目名称、ID 或链接
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 问题与建议修改
+      description: 请附可核对的依据；链接失败时说明访问时间及错误。
+    validations:
+      required: true

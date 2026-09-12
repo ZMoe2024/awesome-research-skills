@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "GASK-001",
+    "name": "awesome-agent-skills",
+    "original_type": "directory",
+    "category": "通用科研",
+    "description": "科研 skill 总目录与发现入口；输出目录/索引。",
+    "source_url": "https://github.com/heilcheng/awesome-agent-skills",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-006",
+    "name": "Galaxy-Dawn/claude-scholar",
+    "original_type": "workspace",
+    "category": "通用科研",
+    "description": "半自动科研助手：构思、代码、实验、写作、发表；输出项目工作区/实验/论文。",
+    "source_url": "https://github.com/Galaxy-Dawn/claude-scholar",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-016",
+    "name": "thesis-skill-hub",
+    "original_type": "directory",
+    "category": "论文写作",
+    "description": "硕士论文审查与写作聚合；输出聚合 SKILL.md/审查表。",
+    "source_url": "https://github.com/DQXCJ-a11y/thesis-skill-hub",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-018",
+    "name": "aigc-reduce",
+    "original_type": "skill",
+    "category": "论文合规",
+    "description": "降低 AIGC 检测率/去 AI 痕迹；输出改写文本。",
+    "source_url": "https://github.com/xiaofenggan01/aigc-reduce",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "prompt-only",
+    "section": "review",
+    "exclusion_reasons": [
+      "execution-level"
+    ]
+  },
+  {
+    "id": "GASK-042",
+    "name": "claude-code-openfoam",
+    "original_type": "workflow",
+    "category": "仿真建模",
+    "description": "OpenFOAM with Claude Code；输出case 文件/仿真结果。",
+    "source_url": "https://github.com/notforgetwyn/claude-code-openfoam",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "candidate",
+    "section": "review",
+    "exclusion_reasons": [
+      "execution-level"
+    ]
+  },
+  {
+    "id": "GASK-059",
+    "name": "replication-folder-template",
+    "original_type": "template",
+    "category": "社科/经管",
+    "description": "AEA/QJE/RES/EJ 复现包模板；输出标准化复现包。",
+    "source_url": "https://github.com/ozak/replication-folder-template",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "templates",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-060",
+    "name": "AMOS 原生自动化 skill/MCP 缺口",
+    "original_type": "gap",
+    "category": "社科/教育",
+    "description": "待挖方向：帮研究生完成「问卷清洗、信效度、回归、SEM、结果段落」，理想产出是「表格/模型/结果段落」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "gap",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-061",
+    "name": "质性编码/NVivo skill 缺口",
+    "original_type": "gap-note",
+    "category": "文科/社科",
+    "description": "待挖方向：帮研究生完成「访谈转写、开放编码、轴心编码、主题分析、NVivo 迁移」，理想产出是「编码表/主题树/备忘录」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-062",
+    "name": "语料库分析 skill 缺口",
+    "original_type": "gap-note",
+    "category": "文科",
+    "description": "待挖方向：帮研究生完成「语料清洗、分词、词频、KWIC、主题模型」，理想产出是「语料表/主题模型/图表」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-065",
+    "name": "MedgeClaw",
+    "original_type": "workspace",
+    "category": "医学/生信",
+    "description": "对话驱动 RNA-seq、药物发现、临床分析；输出分析结果/看板/报告。",
+    "source_url": "https://github.com/xjtulyc/MedgeClaw",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-067",
+    "name": "ClawBio",
+    "original_type": "workspace",
+    "category": "医学/生信",
+    "description": "本地优先、可复现的生信 skill library；输出workflow/报告/数据产物。",
+    "source_url": "https://github.com/clawbio/ClawBio",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-075",
+    "name": "作物/水文模型 skill 缺口",
+    "original_type": "gap-note",
+    "category": "农学/环境/地理",
+    "description": "待挖方向：帮研究生完成「DSSAT/APSIM/SWAT/HYDRUS 输入、校准、运行、解释」，理想产出是「模型输入/运行结果/校准报告」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-076",
+    "name": "农业遥感 skill 缺口",
+    "original_type": "gap-note",
+    "category": "农学/环境/地理",
+    "description": "待挖方向：帮研究生完成「作物分类、长势监测、病虫害识别、产量估计」，理想产出是「遥感图/分类结果/报告」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-077",
+    "name": "Agent-Reach",
+    "original_type": "tool",
+    "category": "中文社媒/发现",
+    "description": "agent 读取 Twitter/Reddit/YouTube/GitHub/B站/小红书；输出搜索结果/文本/视频转写。",
+    "source_url": "https://github.com/Panniantong/Agent-Reach",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-078",
+    "name": "xiaohongshu-mcp",
+    "original_type": "mcp",
+    "category": "中文社媒/发现",
+    "description": "小红书 MCP；输出小红书内容/搜索/交互。",
+    "source_url": "https://github.com/xpzouying/xiaohongshu-mcp",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-079",
+    "name": "RedNote-MCP",
+    "original_type": "mcp",
+    "category": "中文社媒/发现",
+    "description": "RedNote/XHS MCP server；输出小红书内容。",
+    "source_url": "https://github.com/iFurySt/RedNote-MCP",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-080",
+    "name": "xhs-claude-skills",
+    "original_type": "skill",
+    "category": "中文社媒/知识库",
+    "description": "提取小红书帖子到 Obsidian notes；输出Markdown 笔记。",
+    "source_url": "https://github.com/chenxiachan/xhs-claude-skills",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-081",
+    "name": "xiaohongshu-mcp-skills",
+    "original_type": "skill",
+    "category": "中文社媒/发布",
+    "description": "小红书 MCP skills；输出小红书工作流。",
+    "source_url": "https://github.com/autoclaw-cc/xiaohongshu-mcp-skills",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-082",
+    "name": "wechat-query-skill",
+    "original_type": "skill",
+    "category": "中文社媒/发现",
+    "description": "公众号订阅、查询、推送、巡检；输出文章列表/推送/查询结果。",
+    "source_url": "https://github.com/adennng/wechat-query-skill",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-083",
+    "name": "wechat-article-formatter-skill",
+    "original_type": "skill",
+    "category": "中文社媒/发布",
+    "description": "微信公众号文章排版；输出公众号排版 HTML/Markdown。",
+    "source_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-084",
+    "name": "content-pipeline",
+    "original_type": "skill",
+    "category": "中文社媒/发布",
+    "description": "一条 prompt 到多平台发布；输出多平台内容包。",
+    "source_url": "https://github.com/OrangeViolin/content-pipeline",
+    "catalog_record_date": "2026-05-22",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-093",
+    "name": "艺术设计研究 skill 缺口",
+    "original_type": "gap-note",
+    "category": "艺术/设计",
+    "description": "待挖方向：帮研究生完成「作品集、视觉分析、展陈方案、调研板、交互原型」，理想产出是「作品集/调研板/方案」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-094",
+    "name": "史料/OCR skill 缺口",
+    "original_type": "gap-note",
+    "category": "文科",
+    "description": "待挖方向：帮研究生完成「扫描件 OCR、史料摘录、时间线、人物关系」，理想产出是「可检索文本/时间线/关系表」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-095",
+    "name": "科研周报/组会 skill 缺口",
+    "original_type": "gap-note",
+    "category": "通用科研",
+    "description": "待挖方向：帮研究生完成「自动生成科研周报、会议纪要、todo、handoff」，理想产出是「周报/会议纪要/todo」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-096",
+    "name": "投稿材料 skill 缺口",
+    "original_type": "gap-note",
+    "category": "通用科研",
+    "description": "待挖方向：帮研究生完成「期刊格式、cover letter、声明、伦理、数据可用性、补充材料」，理想产出是「投稿包/声明/清单」。",
+    "source_url": null,
+    "catalog_record_date": "2026-05-22",
+    "status": "covered",
+    "execution_level": "candidate",
+    "section": "notes",
+    "exclusion_reasons": [
+      "gap-or-no-url",
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-112",
+    "name": "text-to-cae",
+    "original_type": "workspace+mcp",
+    "category": "仿真建模",
+    "description": "帮有限元研究生从文字需求生成/修改 Abaqus 脚本，运行 CAE，并在浏览器查看网格、云图、参数和结果。",
+    "source_url": "https://github.com/Cai-aa/text-to-cae",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-114",
+    "name": "Claw-AI-Lab",
+    "original_type": "workspace+harness",
+    "category": "通用科研",
+    "description": "把一个研究题目拆成多 agent 协作的虚拟实验室，并通过网页面板跟踪代码、实验、图表和论文产物。",
+    "source_url": "https://github.com/Claw-AI-Lab/Claw-AI-Lab",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-117",
+    "name": "claude-research",
+    "original_type": "workspace+skill",
+    "category": "通用科研",
+    "description": "一键安装面向 PhD 的 Claude Code 学术工作流：skills、agents、hooks、rules 都配好。",
+    "source_url": "https://github.com/flonat/claude-research",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-119",
+    "name": "AcademicForge",
+    "original_type": "directory+workspace",
+    "category": "通用科研",
+    "description": "学术 skill 包选择器：在网页上勾选研究任务和平台，生成 Claude Code/OpenCode/Codex 安装方案。",
+    "source_url": "https://github.com/HughYau/AcademicForge",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-120",
+    "name": "AlterLab-Academic-Skills",
+    "original_type": "directory+skill",
+    "category": "通用科研",
+    "description": "186+ 学术技能包，覆盖数据库、领域方法、发表、教学、实验室平台和文档处理。",
+    "source_url": "https://github.com/AlterLab-IEU/AlterLab-Academic-Skills",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "prompt-only",
+    "section": "review",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-123",
+    "name": "claude-code-my-workflow",
+    "original_type": "workspace",
+    "category": "通用科研",
+    "description": "可 fork 的 Claude Code 学术项目模板，内置多 agent 审阅、质量门、LaTeX/Beamer/R/Quarto 工作流。",
+    "source_url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-131",
+    "name": "bio-mcp organization",
+    "original_type": "directory+mcp",
+    "category": "医学/生信",
+    "description": "Bio-MCP 组织收集一组生信 MCP，让 Codex/Claude/Cursor 直接执行 BLAST、samtools、BWA、seqkit 等工具。",
+    "source_url": "https://github.com/bio-mcp",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-143",
+    "name": "llm-for-zotero",
+    "original_type": "workspace+mcp",
+    "category": "文献管理",
+    "description": "把 Codex/Claude Code 接到 Zotero 文献库，作为“扎根本地文献库”的研究 agent。",
+    "source_url": "https://github.com/yilewang/llm-for-zotero",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-146",
+    "name": "x-research-skill",
+    "original_type": "skill",
+    "category": "中文社媒/发现",
+    "description": "X/Twitter research agent skill，让 Claude Code/OpenClaw 从终端搜索推文、抓线程、监控账号并生成有来源的研究记录。",
+    "source_url": "https://github.com/rohunvora/x-research-skill",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-147",
+    "name": "Autosearch",
+    "original_type": "skill+cli",
+    "category": "中文社媒/发现",
+    "description": "AutoSearch 是多渠道自动研究工具：多搜索渠道，自演化 query，输出带引用报告。",
+    "source_url": "https://github.com/0xmariowu/Autosearch",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-148",
+    "name": "baoyu-skills",
+    "original_type": "plugin+skill",
+    "category": "图表/PPT",
+    "description": "宝玉的 Claude Code 技能集，覆盖图文生成、网页抓取、幻灯片、公众号/小红书/微博发布和内容处理。",
+    "source_url": "https://github.com/JimLiu/baoyu-skills",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-152",
+    "name": "MatClaw",
+    "original_type": "workspace+skill+mcp",
+    "category": "仿真建模",
+    "description": "MatClaw 是材料科学 agent，能把自然语言任务转成 DFT/LAMMPS/RASPA3/MLIP 等可复现模拟流程。",
+    "source_url": "https://github.com/DingyangLyu/MatClaw",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-156",
+    "name": "awesome-scientific-ai-tools",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "科学 AI 工具目录，收集研究用 MCP servers、agent skills、文献到投稿工作流。",
+    "source_url": "https://github.com/Harsh9005/awesome-scientific-ai-tools",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-157",
+    "name": "Awesome-Physical-Engineering-AI",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "物理工程 AI 工具目录，覆盖 CAD、仿真、制造、硬件工程、MCP 和工程 agent。",
+    "source_url": "https://github.com/010zx00x1/Awesome-Physical-Engineering-AI",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-162",
+    "name": "awesome-legaltech",
+    "original_type": "directory",
+    "category": "法学/公共政策",
+    "description": "全球 LegalTech 资源目录，收集开源法律平台、AI 模型、MCP servers、数据集和法律工具。",
+    "source_url": "https://github.com/Vaquill-AI/awesome-legaltech",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-180",
+    "name": "xhs-cli",
+    "original_type": "skill+cli",
+    "category": "中文社媒/发现",
+    "description": "xhs-cli 自带 SKILL.md，让 agent 通过真实浏览器搜索/阅读/互动小红书内容。",
+    "source_url": "https://github.com/jackwener/xhs-cli",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-181",
+    "name": "redbook",
+    "original_type": "skill+cli",
+    "category": "中文社媒/发现",
+    "description": "redbook 是面向 AI agents 的小红书 CLI/API，支持搜索笔记、读笔记、用户主页和爆文分析。",
+    "source_url": "https://github.com/lucasygu/redbook",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category",
+      "social-keyword"
+    ]
+  },
+  {
+    "id": "GASK-182",
+    "name": "SkillNet",
+    "original_type": "mcp+directory",
+    "category": "研究基础设施",
+    "description": "SkillNet MCP 让 agent 搜索、下载、创建、评估 300000+ 专用 skills。",
+    "source_url": "https://github.com/zjunlp/SkillNet",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-189",
+    "name": "anthropics/life-sciences",
+    "original_type": "marketplace+skill+mcp",
+    "category": "医学/生信",
+    "description": "Anthropic life-sciences marketplace 收录生命科学 MCP servers 和 skills，如 PubMed、BioRender、Synapse、10x、单细胞 QC、Nextflow。",
+    "source_url": "https://github.com/anthropics/life-sciences",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-191",
+    "name": "Biomni",
+    "original_type": "workspace+agent+mcp",
+    "category": "医学/生信",
+    "description": "Biomni 是通用生物医学 AI agent，集成大量生物医学工具，并支持添加 MCP servers 做外部工具调用。",
+    "source_url": "https://github.com/snap-stanford/Biomni",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-194",
+    "name": "awesome-physical-ai-for-science",
+    "original_type": "directory",
+    "category": "医学/生信",
+    "description": "Physical AI for Science 目录收集机器人、实验室自动化、生命科学 MCP 和科学发现 agent 资源。",
+    "source_url": "https://github.com/labclaw/awesome-physical-ai-for-science",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-196",
+    "name": "agentic-data-scientist",
+    "original_type": "workspace+agent+mcp",
+    "category": "数据分析",
+    "description": "Agentic Data Scientist 是端到端数据科学 agent，支持 MCP 集成和 Claude Scientific Skills，用计划-执行-验证循环做分析。",
+    "source_url": "https://github.com/K-Dense-AI/agentic-data-scientist",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "workspaces",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-197",
+    "name": "Awesome-Scientific-Skills",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "Awesome Scientific Skills 汇总可 clone 的科研 Agent Skills，覆盖官方注册表和社区技能源。",
+    "source_url": "https://github.com/InternScience/Awesome-Scientific-Skills",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-232",
+    "name": "MCPKit Registry",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "MCPKit 是 MCP server registry，按分类浏览 2600+ servers，可作为后续扫漏入口。",
+    "source_url": "https://www.mcpkit.com/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "directory",
+    "section": "directories",
+    "exclusion_reasons": [
+      "execution-level",
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-233",
+    "name": "Official MCP Registry",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "官方 MCP Registry，用来发现和核验 MCP server 的标准入口。",
+    "source_url": "https://registry.modelcontextprotocol.io/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-234",
+    "name": "mcp-lookup",
+    "original_type": "mcp+directory",
+    "category": "研究基础设施",
+    "description": "mcp-lookup 同时查官方 Registry、Smithery、PulseMCP 等来源，适合补漏。",
+    "source_url": "https://pypi.org/project/mcp-lookup/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-235",
+    "name": "Smithery",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "Smithery 是 MCP 和 skill 的重要市场，用来发现可安装工具。",
+    "source_url": "https://smithery.ai/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-236",
+    "name": "Glama MCP Directory",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "Glama MCP 目录适合查看 server 工具清单、参数和用途。",
+    "source_url": "https://glama.ai/mcp",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-237",
+    "name": "PulseMCP",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "PulseMCP 收录大量 MCP server，适合按学科关键词找漏项。",
+    "source_url": "https://www.pulsemcp.com/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-238",
+    "name": "MCP.so",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "MCP.so 是 MCP server 目录，可作为中文用户发现入口。",
+    "source_url": "https://mcp.so/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-239",
+    "name": "@cyanheads/openalex-mcp-server",
+    "original_type": "mcp",
+    "category": "文献检索",
+    "description": "OpenAlex MCP 把 2.7 亿级开放学术目录接给 agent，用于文献发现和引用分析。",
+    "source_url": "https://www.npmjs.com/package/@cyanheads/openalex-mcp-server",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "review",
+    "exclusion_reasons": [
+      "blocked-name"
+    ]
+  },
+  {
+    "id": "GASK-249",
+    "name": "@modelcontextprotocol/server-pdf",
+    "original_type": "mcp",
+    "category": "文档/PDF解析",
+    "description": "官方 PDF MCP 用于加载 PDF、分页抽取文本并配合查看器定位。",
+    "source_url": "https://www.npmjs.com/package/@modelcontextprotocol/server-pdf",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "review",
+    "exclusion_reasons": [
+      "blocked-name"
+    ]
+  },
+  {
+    "id": "GASK-252",
+    "name": "MCP Finder / Meyhem ecosystem search",
+    "original_type": "mcp+directory",
+    "category": "研究基础设施",
+    "description": "MCP Finder 类工具用于让 agent 查找可用 MCP server。",
+    "source_url": "https://www.pulsemcp.com/servers/mcp-15",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-253",
+    "name": "mcp-scholarly",
+    "original_type": "skill+directory",
+    "category": "文献检索",
+    "description": "mcp-scholarly 是 Smithery 上的学术检索类技能入口。",
+    "source_url": "https://smithery.ai/skills/spkhz/mcp-scholarly",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-266",
+    "name": "AIMCP / MCP Hub",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "AIMCP/MCP Hub 收录 MCP 和 skills，可作为继续搜索的平台入口。",
+    "source_url": "https://www.aimcp.info/en",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-273",
+    "name": "AwesomeSkills.dev",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "AwesomeSkills.dev 收录 Claude Code/Codex/Cursor 技能，可作为 skill 补漏平台。",
+    "source_url": "https://www.awesomeskills.dev/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-274",
+    "name": "freshcrate",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "Freshcrate 收录 agent 开源包，可发现 MCP/skill 并查看版本说明。",
+    "source_url": "https://www.freshcrate.ai/projects/repo-forensics",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-275",
+    "name": "MCP.pizza",
+    "original_type": "directory",
+    "category": "研究基础设施",
+    "description": "MCP.pizza 收录 MCP server 页面，可用于学术检索和 deep research 补漏。",
+    "source_url": "https://www.mcp.pizza/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "directories",
+    "exclusion_reasons": [
+      "resource-kind"
+    ]
+  },
+  {
+    "id": "GASK-276",
+    "name": "frontend-design",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "官方 frontend-design skill 让 Claude/Codex 类 agent 生成更有设计感的生产级网页 UI。",
+    "source_url": "https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-277",
+    "name": "frontend-ui-design",
+    "original_type": "skill+directory",
+    "category": "前端/UI设计",
+    "description": "frontend-ui-design skill 用于设计或实现生产级 UI 组件和屏幕。",
+    "source_url": "https://claudskills.com/skills/frontend-ui-frontend-ui-design/",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "resource-kind",
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-278",
+    "name": "LibreUIUX-Claude-Code",
+    "original_type": "skill+agents+workflow",
+    "category": "前端/UI设计",
+    "description": "LibreUIUX-Claude-Code 是一整套 Claude Code UI/UX skills、agents 和 workflows。",
+    "source_url": "https://github.com/HermeticOrmus/LibreUIUX-Claude-Code",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-279",
+    "name": "frontend-ui",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "frontend-ui skill 用研究型提示策略生成更有辨识度的网页 UI。",
+    "source_url": "https://github.com/WomenDefiningAI/claude-code-skills/tree/main/skills/frontend-ui",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-280",
+    "name": "codex-design-skill / ui-design",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "codex-design-skill 的 ui-design 帮 Codex 直接设计并实现前端 UI。",
+    "source_url": "https://github.com/hursh-shah/codex-design-skill",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-281",
+    "name": "MiniMax frontend-dev",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "MiniMax frontend-dev skill 结合高级 UI、动画和 AI 生成媒体资产做前端页面。",
+    "source_url": "https://github.com/MiniMax-AI/skills",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-282",
+    "name": "frontend-design-audit",
+    "original_type": "skill+plugin",
+    "category": "前端/UI设计",
+    "description": "frontend-design-audit 用 15 条可用性原则审计 UI，并可辅助修复代码。",
+    "source_url": "https://github.com/mistyhx/frontend-design-audit",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-283",
+    "name": "ui-mockups",
+    "original_type": "skill+cli",
+    "category": "前端/UI设计",
+    "description": "ui-mockups skill/CLI 用图像模型做 UI 设计构思和高保真屏幕 mockup。",
+    "source_url": "https://github.com/jonathanwmaddison/ui-mockups",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "real-execution",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-284",
+    "name": "ios-ux-prototype",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "ios-ux-prototype skill 生成交互式 iOS App 原型和组件参考。",
+    "source_url": "https://github.com/tddworks/claude-skills/tree/main/skills/ios-ux-prototype",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-285",
+    "name": "pacifio/ui",
+    "original_type": "skill",
+    "category": "前端/UI设计",
+    "description": "pacifio/ui 是个人设计系统 skill，提供紧凑、现代的 UI 风格规则。",
+    "source_url": "https://github.com/pacifio/ui",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "adjacent-category"
+    ]
+  },
+  {
+    "id": "GASK-286",
+    "name": "interface-design",
+    "original_type": "skill+directory",
+    "category": "前端/UI设计",
+    "description": "interface-design skill 面向企业软件、SaaS dashboard 和 admin 界面。",
+    "source_url": "https://www.sourcepulse.org/projects/22108831",
+    "catalog_record_date": "2026-05-23",
+    "status": "collected",
+    "execution_level": "guided-workflow",
+    "section": "related",
+    "exclusion_reasons": [
+      "resource-kind",
+      "adjacent-category"
+    ]
+  }
+]

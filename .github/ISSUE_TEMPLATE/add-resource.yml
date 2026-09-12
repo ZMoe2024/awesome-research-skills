@@ -1,0 +1,47 @@
+name: 收录资源
+description: 推荐一个有明确科研用途的 Skill、MCP 或工具
+title: '[收录] '
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 项目名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 原项目链接
+      description: 优先原作者仓库、官方文档或软件主页。
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: 资源类型
+      options:
+        - Skill
+        - Skill + MCP
+        - MCP
+        - MCP 套件
+        - 工具包
+        - 插件
+        - CLI
+        - 工具
+        - 工作流
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 能解决什么科研任务？
+      description: 请说明输入、任务和预期输出。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 信息来源与使用条件
+      description: 请说明是否实测，以及已知的客户端、依赖、费用或限制。未实测也可以提交。
+    validations:
+      required: true

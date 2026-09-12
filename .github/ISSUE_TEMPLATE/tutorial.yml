@@ -1,0 +1,23 @@
+name: 教程选题
+description: 提出想看的科研工具教程，或提供可公开的实践记录
+title: '[教程] '
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: 想完成什么科研任务？
+      description: 说明手头的材料和希望得到的结果。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 使用环境与卡住的步骤
+      description: 例如操作系统、AI 客户端、工具名称，以及已经尝试到哪一步。
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: 可公开的样本或参考项目
+      description: 可选。提供原项目链接或可公开使用的样本，勿提交私人材料或账号信息。

@@ -1,0 +1,5116 @@
+{
+  "snapshot_date": "2026-09-12",
+  "record_count": 316,
+  "resource_count": 311,
+  "candidate_count": 5,
+  "linked_record_count": 316,
+  "records": [
+    {
+      "id": "SUP-RESEARCH-008",
+      "name": "AhaDiff（知返）",
+      "type": "Skill + MCP",
+      "category": "专业软件",
+      "description": "使用 AI 编写科研代码后，需要理解每次改动、核对证据，并把关键知识沉淀为可复习材料",
+      "source_url": "https://github.com/AGI-is-going-to-arrive/ahadiff",
+      "tags": [
+        "AhaDiff",
+        "知返",
+        "科研代码"
+      ],
+      "catalog_record_date": "2026-07-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-125",
+      "name": "beamer-skill",
+      "type": "Skill + MCP",
+      "category": "图表展示",
+      "description": "生成、编译、审阅和打磨学术 Beamer 幻灯片，并可配合 pdf-mcp 抽取论文图。",
+      "source_url": "https://github.com/Noi1r/beamer-skill",
+      "tags": [
+        "Beamer",
+        "LaTeX",
+        "TikZ"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-129",
+      "name": "BioMCP",
+      "type": "Skill + MCP",
+      "category": "生医实验",
+      "description": "一个二进制 BioMCP，把 PubMed/PMC、基因、变异、疾病、药物、临床研究和本地队列分析接给 agent。",
+      "source_url": "https://github.com/genomoncology/biomcp",
+      "tags": [
+        "PubMed",
+        "Europe PMC",
+        "PubTator"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-178",
+      "name": "canvas-mcp",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "Canvas MCP 连接 Canvas LMS/Gradescope，支持课程、作业、模块、日历、评分和学生数据查询。",
+      "source_url": "https://github.com/vishalsachdev/canvas-mcp",
+      "tags": [
+        "Canvas LMS",
+        "Gradescope",
+        "课程管理"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-032",
+      "name": "econ-r-mcp",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "通过R执行可复现计量分析并保存结果",
+      "source_url": "https://github.com/emmanueltsallis/econ-r-mcp",
+      "tags": [
+        "计量分析",
+        "可复现性"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-186",
+      "name": "Figma MCP Server Guide",
+      "type": "Skill + MCP",
+      "category": "通用科研",
+      "description": "官方 Figma MCP Server 让 agent 读取 Figma 设计上下文、变量、截图、Code Connect 和设计系统规则。",
+      "source_url": "https://github.com/figma/mcp-server-guide",
+      "tags": [
+        "Figma",
+        "设计系统",
+        "交互设计"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-130",
+      "name": "pubmed-search-mcp",
+      "type": "Skill + MCP",
+      "category": "生医实验",
+      "description": "专业 PubMed 文献 MCP：多源搜索、全文/图表获取、PICO、时间线和 Claude skills。",
+      "source_url": "https://github.com/u9401066/pubmed-search-mcp",
+      "tags": [
+        "PubMed",
+        "Europe PMC",
+        "CORE"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-034",
+      "name": "research-data-explorer",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "保存分析过程与报告证据的探索性数据分析",
+      "source_url": "https://github.com/u9401066/research-data-explorer",
+      "tags": [
+        "EDA",
+        "分析报告",
+        "过程记录"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-009",
+      "name": "ScanSci PDF（scansci-pdf）",
+      "type": "Skill + MCP",
+      "category": "文献研究",
+      "description": "根据 DOI、arXiv 编号或文献清单批量获取论文全文，并通过已有机构权限下载订阅内容、整理引文和归档到 Zotero",
+      "source_url": "https://github.com/Rimagination/scansci-pdf",
+      "tags": [
+        "论文下载",
+        "DOI",
+        "批量下载"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-002",
+      "name": "scientific-agent-skills / claude-scientific-skills",
+      "type": "Skill + MCP",
+      "category": "生医实验",
+      "description": "把 100+ 科学计算、数据库检索、可视化和写作流程打包成可安装 skills，让 agent 更像科研助理。",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "tags": [
+        "生物信息学",
+        "基因组学",
+        "药物发现"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-107",
+      "name": "stata-help-skill",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "帮经管社科研究生查 Stata 命令语法、选项和示例，减少 do-file 幻觉。",
+      "source_url": "https://github.com/ashuiGordon/stata-help-skill",
+      "tags": [
+        "应用经济学",
+        "理论经济学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-050",
+      "name": "ToolUniverse",
+      "type": "Skill + MCP",
+      "category": "生医实验",
+      "description": "科学数据库、专业工具和研究工作流接入",
+      "source_url": "https://github.com/mims-harvard/ToolUniverse",
+      "tags": [
+        "科学工具",
+        "数据库",
+        "研究工作流"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-230",
+      "name": "wjx-ai-kit / wjx-mcp-server",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "问卷星官方 wjx-ai-kit 提供 CLI、SDK、MCP Server、Agent 和 Skill，让 AI 用自然语言创建问卷、查询结果和分析数据。",
+      "source_url": "https://www.wjx.cn/help/help.aspx?catid=136",
+      "tags": [
+        "问卷星",
+        "WJX",
+        "问卷调查"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-037",
+      "name": "abaqus-ml-skills",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "LHS 批量数据生成、ODB 转 ML-ready CSV；输出CSV 数据集/代理模型数据。",
+      "source_url": "https://github.com/Haibarakiku/abaqus-ml-skills",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-068",
+      "name": "agentic-science",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "39 个 scientific skills，单细胞、bulk RNA-seq、wet-lab APIs；输出分析脚本/报告。",
+      "source_url": "https://github.com/001TMF/agentic-science",
+      "tags": [
+        "生物学",
+        "基础医学",
+        "药学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-025",
+      "name": "asta-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "Semantic Scholar/Asta MCP 包装；输出论文检索/作者/引用网络。",
+      "source_url": "https://github.com/Agents365-ai/asta-skill",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-004",
+      "name": "Auto-claude-code-research-in-sleep / ARIS",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "睡觉时自动研究、idea、实验、审稿循环；输出idea/实验记录/论文草稿。",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "tags": [
+        "计算机科学与技术",
+        "软件工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-029",
+      "name": "claude-code-zotero-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "DOI 批量导入、collection 管理、item search；输出Zotero 条目/collection。",
+      "source_url": "https://github.com/shoei05/claude-code-zotero-skill",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-126",
+      "name": "claude-skill-academic-ppt",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "从论文 LaTeX/PDF 生成学术答辩 PPTX，含图表重绘、行动标题、speaker notes 和 Q&A 预测。",
+      "source_url": "https://github.com/PHY041/claude-skill-academic-ppt",
+      "tags": [
+        "答辩",
+        "PPTX",
+        "LaTeX"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-019",
+      "name": "cnki-skills",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "知网检索、期刊浏览、PDF 下载、Zotero 导出；输出PDF/引用/Zotero 条目。",
+      "source_url": "https://github.com/cookjohn/cnki-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-014",
+      "name": "codex-claude-academic-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "论文阅读报告、PPT/Word、写作润色、科学计算；输出Word/PPT/图表/论文文本。",
+      "source_url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "tags": [
+        "数学",
+        "统计学",
+        "计算机科学与技术"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-250",
+      "name": "create-academic-research",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "create-academic-research 一键生成适合 agent 协作的学术研究仓库。",
+      "source_url": "https://www.npmjs.com/package/create-academic-research",
+      "tags": [
+        "source ledger",
+        "wiki memory",
+        "MCP setup"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-069",
+      "name": "drug-discovery-skills",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "target validation、ChEMBL、Open Targets、PubMed；输出靶点评估/竞品情报/文献分析。",
+      "source_url": "https://github.com/huifer/drug-discovery-skills",
+      "tags": [
+        "药学",
+        "化学",
+        "生物学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-073",
+      "name": "faostat-skills",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "FAOSTAT 食品农业数据分析；输出国家画像/贸易分析/气候评估。",
+      "source_url": "https://github.com/berba-q/faostat-skills",
+      "tags": [
+        "农业",
+        "作物学",
+        "农林经济管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-072",
+      "name": "gee-python-skill",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "Google Earth Engine Python API：任务提交、Drive 下载、资产管理；输出遥感任务/下载数据/资产管理。",
+      "source_url": "https://github.com/Zhihong-KE/gee-python-skill",
+      "tags": [
+        "遥感科学与技术",
+        "地理学",
+        "测绘科学与技术"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-020",
+      "name": "Google Scholar 统一检索",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "Google Scholar 检索、引用追踪、全文访问、Zotero 导出；输出论文列表/引用/全文/Zotero。",
+      "source_url": "https://github.com/cookjohn/gs-skills",
+      "tags": [
+        "Google Scholar",
+        "谷歌学术",
+        "文献检索"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-022",
+      "name": "ieee-skills",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "IEEE Xplore 检索、引用、PDF、Zotero；输出IEEE 文献/引用/PDF。",
+      "source_url": "https://github.com/cookjohn/ieee-skills",
+      "tags": [
+        "电子信息",
+        "电子科学与技术",
+        "信息与通信工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-215",
+      "name": "irt-psychometrics-edu",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "irt-psychometrics-edu skill 用于教育测量 IRT：2PL/3PL 校准、DIF、信息函数和测验等值。",
+      "source_url": "https://skillsmp.com/skills/xjtulyc-awesome-rosetta-skills-skills-20-education-irt-psychometrics-edu-skill-md",
+      "tags": [
+        "IRT",
+        "item response theory",
+        "2PL"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-045",
+      "name": "kicad-happy",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "KiCad 原理图、PCB review、SPICE、BOM、制板准备；输出原理图审查/PCB 报告/BOM。",
+      "source_url": "https://github.com/aklofas/kicad-happy",
+      "tags": [
+        "电子科学与技术",
+        "信息与通信工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-124",
+      "name": "latex-document-skill",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "用自然语言生成和修复 LaTeX 文档，支持模板、OCR、TikZ、CJK/RTL 多语言和自动编译检查。",
+      "source_url": "https://github.com/ndpvt-web/latex-document-skill",
+      "tags": [
+        "LaTeX",
+        "XeLaTeX",
+        "OCR"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-063",
+      "name": "medsci-skills",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "医学文献、报告规范、统计、出版图表；输出protocol/统计/图表/清单。",
+      "source_url": "https://github.com/Aperivue/medsci-skills",
+      "tags": [
+        "基础医学",
+        "临床医学",
+        "公共卫生与预防医学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-046",
+      "name": "mujoco-workbench",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "MuJoCo 场景原型和 agent skills；输出场景 XML/仿真脚本。",
+      "source_url": "https://github.com/Hebbian-Robotics/mujoco-workbench",
+      "tags": [
+        "机械工程",
+        "控制科学与工程",
+        "计算机科学与技术"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-289",
+      "name": "originplot",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "先用 FigureSpec 描述数据、图层、绘图元素、样式和导出要求，确认后由 Windows Python 控制 Origin 批量生成图形并保存 OPJU。",
+      "source_url": "https://github.com/deliuou/originplot-skill",
+      "tags": [
+        "Origin",
+        "OriginPro",
+        "originpro"
+      ],
+      "catalog_record_date": "2026-07-20",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-023",
+      "name": "paper-fetch",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "DOI/title 到 PDF，多来源 fallback；输出PDF/元数据。",
+      "source_url": "https://github.com/Agents365-ai/paper-fetch",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-088",
+      "name": "paperbanana-skill",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "publication-quality academic diagrams；输出学术图/Slides。",
+      "source_url": "https://github.com/PlutoLei/paperbanana-skill",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-021",
+      "name": "pm-skills",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "PubMed 检索、引用导出、Zotero 集成；输出PubMed 文献/引用。",
+      "source_url": "https://github.com/cookjohn/pm-skills",
+      "tags": [
+        "基础医学",
+        "临床医学",
+        "公共卫生与预防医学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-071",
+      "name": "qgis-automation-skill",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "通过 qgis_process CLI 做空间分析；输出空间分析结果/地图。",
+      "source_url": "https://github.com/Zhangyi-cug/qgis-automation-skill",
+      "tags": [
+        "地理学",
+        "测绘科学与技术",
+        "遥感科学与技术"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-070",
+      "name": "QGIS-Claude-Skill-Package",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "QGIS/PyQGIS 空间分析、制图、地理处理、插件开发；输出地图/空间分析结果/插件。",
+      "source_url": "https://github.com/Impertio-Studio/QGIS-Claude-Skill-Package",
+      "tags": [
+        "地理学",
+        "测绘科学与技术",
+        "遥感科学与技术"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-268",
+      "name": "repo-forensics",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "repo-forensics 扫描 GitHub repo、Agent Skills、Plugins 和 MCP servers 的安全风险。",
+      "source_url": "https://www.awesomeskills.dev/es/skill/alexgreensh-repo-forensics",
+      "tags": [
+        "security scanner",
+        "agent skills",
+        "plugins"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-052",
+      "name": "Retro-Learn",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "逆合成路线规划；输出合成路线/分析报告。",
+      "source_url": "https://github.com/xiaolixl/Retro-Learn",
+      "tags": [
+        "化学",
+        "药学",
+        "材料与化工"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-024",
+      "name": "scholar-deep-research",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "8 阶段文献综述、去重、引用追踪、自评；输出综述报告/证据表。",
+      "source_url": "https://github.com/Agents365-ai/scholar-deep-research",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-066",
+      "name": "SciAgent-Skills",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "197 个 bioinformatics/life science skills；输出分析脚本/报告。",
+      "source_url": "https://github.com/jaechang-hits/SciAgent-Skills",
+      "tags": [
+        "生物学",
+        "基础医学",
+        "药学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-026",
+      "name": "semanticscholar-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "Semantic Scholar API wrapper；输出论文/引用/作者数据。",
+      "source_url": "https://github.com/Agents365-ai/semanticscholar-skill",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-027",
+      "name": "skill-endnote-research",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "研究想法转 EndNote 文献包；输出文献包/文件夹/综述材料。",
+      "source_url": "https://github.com/GuangyaoYin/skill-endnote-research",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-CAD-001",
+      "name": "solidworks-automation-skill",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "机械/结构研究生需要用 agent 辅助 SolidWorks 零件建模、装配体、工程图和导出",
+      "source_url": "https://github.com/wzyn20051216/solidworks-automation-skill",
+      "tags": [
+        "SolidWorks",
+        "CAD",
+        "三维建模"
+      ],
+      "catalog_record_date": null,
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-049",
+      "name": "vasp-pointdefect-calculation",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "VASP 点缺陷计算和 SLURM 管理；输出INCAR/POSCAR/提交脚本/结果。",
+      "source_url": "https://github.com/yybai25/vasp-pointdefect-calculation",
+      "tags": [
+        "材料科学与工程",
+        "化学",
+        "物理学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-092",
+      "name": "video-moment-retrieval-research-radar",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "跟踪 Video Moment Retrieval 研究前沿；输出论文雷达/benchmark/leaderboard。",
+      "source_url": "https://github.com/tianxinlin666/video-moment-retrieval-research-radar",
+      "tags": [
+        "计算机科学与技术",
+        "软件工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-043",
+      "name": "vortex-funnel-gen",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "CadQuery 几何 → OpenFOAM CFD → 贝叶斯优化；输出几何/CFD 结果/优化报告。",
+      "source_url": "https://github.com/hooyao/vortex-funnel-gen",
+      "tags": [
+        "力学",
+        "动力工程及工程热物理",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-038",
+      "name": "wtf-abaqus",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "仿真脚本、HPC 提交、结果验证；输出仿真脚本/提交文件/验证报告。",
+      "source_url": "https://github.com/DaisyQuach/wtf-abaqus",
+      "tags": [
+        "力学",
+        "材料科学与工程",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-030",
+      "name": "zotero-obsidian-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "读取 Zotero 分类论文，写入 Obsidian notes；输出Markdown 笔记。",
+      "source_url": "https://github.com/WindZh03/zotero-obsidian-skill",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-262",
+      "name": "@cyanheads/pubmed-mcp-server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "@cyanheads/pubmed-mcp-server 搜 PubMed/Europe PMC、取全文、MeSH 和引用。",
+      "source_url": "https://www.npmjs.com/package/@cyanheads/pubmed-mcp-server",
+      "tags": [
+        "PubMed",
+        "Europe PMC",
+        "NCBI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-261",
+      "name": "@futurelab-studio/latest-science-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "latest-science-mcp 从 arXiv 和 OpenAlex 收集最新科学论文。",
+      "source_url": "https://www.npmjs.com/package/@futurelab-studio/latest-science-mcp",
+      "tags": [
+        "scientific papers",
+        "arXiv",
+        "OpenAlex"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-269",
+      "name": "@mapbox/mcp-server",
+      "type": "MCP",
+      "category": "图表展示",
+      "description": "Mapbox MCP 把地图/地理服务接给 agent，适合空间数据项目。",
+      "source_url": "https://www.npmjs.com/package/@mapbox/mcp-server",
+      "tags": [
+        "Mapbox",
+        "地图",
+        "地理编码"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-246",
+      "name": "@perplexity-ai/mcp-server",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Perplexity 官方 MCP 把实时网页搜索和研究能力接给 agent。",
+      "source_url": "https://docs.perplexity.ai/guides/mcp-server",
+      "tags": [
+        "Perplexity",
+        "web search",
+        "deep research"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-251",
+      "name": "@pipeworx/mcp-science",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "@pipeworx/mcp-science 面向科学研究资源与数据工作流。",
+      "source_url": "https://www.npmjs.com/package/@pipeworx/mcp-science",
+      "tags": [
+        "science",
+        "research data",
+        "analysis"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-271",
+      "name": "@playwright/mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Playwright MCP 给 agent 浏览器操作能力，用于网页检查、交互和采集辅助。",
+      "source_url": "https://www.npmjs.com/package/@playwright/mcp",
+      "tags": [
+        "Playwright",
+        "browser automation",
+        "网页测试"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-264",
+      "name": "作物模拟器-MCP / DSSAT MCP Server",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "DSSAT MCP 让 Claude 连接作物模拟器，下载输入、运行实验并收集输出。",
+      "source_url": "https://www.xingzhan.cloud/mcp-market/236400e1482fa82f",
+      "tags": [
+        "DSSAT",
+        "作物模型",
+        "农业系统模型"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-111",
+      "name": "abaqus-mcp-server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "帮有限元方向研究生让 agent 操作 Abaqus/CAE，执行 Python 脚本并读取消息日志。",
+      "source_url": "https://github.com/jianzhichun/abaqus-mcp-server",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-245",
+      "name": "Academic MCP",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Academic MCP 提供论文搜索类工具，可作为多源学术检索候选。",
+      "source_url": "https://glama.ai/mcp/servers/%40LinXueyuanStdio/academic-mcp/tools/paper_search",
+      "tags": [
+        "paper search",
+        "arXiv",
+        "OpenAlex"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-254",
+      "name": "academic-research-mcp-suite",
+      "type": "MCP 套件",
+      "category": "专业软件",
+      "description": "academic-research-mcp-suite 提供 6 个专门 server，覆盖研究流程自动化。",
+      "source_url": "https://www.npmjs.com/package/academic-research-mcp-suite",
+      "tags": [
+        "research workflow",
+        "question refinement",
+        "literature"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-141",
+      "name": "academic-search-mcp-server",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Academic Paper Search MCP，让 Claude 搜索论文、取元数据、摘要、DOI 和可用全文。",
+      "source_url": "https://github.com/afrise/academic-search-mcp-server",
+      "tags": [
+        "Semantic Scholar",
+        "Crossref",
+        "DOI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-002",
+      "name": "arxiv-latex-mcp",
+      "type": "MCP",
+      "category": "论文读写",
+      "description": "阅读数学、物理、机器学习等 arXiv 论文时，需要直接取 LaTeX 源码理解公式和定理",
+      "source_url": "https://github.com/takashiishida/arxiv-latex-mcp",
+      "tags": [
+        "arXiv",
+        "LaTeX",
+        "论文阅读"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-142",
+      "name": "arxiv-mcp-server",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "arXiv MCP Server，支持按时间/分类搜索 arXiv、下载读取论文、本地缓存和论文分析 prompts。",
+      "source_url": "https://github.com/blazickjp/arxiv-mcp-server",
+      "tags": [
+        "arXiv",
+        "preprint",
+        "paper download"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-103",
+      "name": "arxiv-scout",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮 AI/CS/数学方向研究生做每日论文雷达，产出个性化候选论文和机会排序。",
+      "source_url": "https://github.com/shimenghuang/arxiv-scout",
+      "tags": [
+        "计算机科学与技术",
+        "软件工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-216",
+      "name": "astro_mcp",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Astro MCP 提供统一天文数据访问，把 astroquery、DESI 等多源目录变成自然语言可查的 MCP。",
+      "source_url": "https://github.com/SandyYuan/astro_mcp",
+      "tags": [
+        "天文学",
+        "astroquery",
+        "DESI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-134",
+      "name": "Augmented-Nature-UniProt-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "UniProt MCP，提供蛋白搜索、基因查询、FASTA 序列、功能域/位点/注释等工具。",
+      "source_url": "https://github.com/Augmented-Nature/Augmented-Nature-UniProt-MCP-Server",
+      "tags": [
+        "UniProt",
+        "蛋白质",
+        "基因"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-033",
+      "name": "automl-stat-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "统计分析与AutoML工具接口",
+      "source_url": "https://github.com/u9401066/automl-stat-mcp",
+      "tags": [
+        "临床统计",
+        "AutoML",
+        "生存分析"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-054",
+      "name": "bioimage-mcp",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "通过独立环境运行生物图像分析工具",
+      "source_url": "https://github.com/cqian89/bioimage-mcp",
+      "tags": [
+        "生物图像",
+        "Cellpose",
+        "流程重放"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-053",
+      "name": "bioimage-mcp-server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "访问显微图像格式及图像分析信息",
+      "source_url": "https://github.com/Ichoran/bioimage-mcp-server",
+      "tags": [
+        "显微图像",
+        "Bio-Formats",
+        "格式转换"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-CAD-003",
+      "name": "Blender MCP Server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "设计、可视化和三维建模场景需要用自然语言控制 Blender、生成场景和修改模型",
+      "source_url": "https://www.blender.org/lab/mcp-server/",
+      "tags": [
+        "Blender",
+        "MCP",
+        "3D建模"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-187",
+      "name": "blender-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "Blender MCP 让 Claude/agent 用自然语言控制 Blender，生成、修改和导出 3D 场景对象。",
+      "source_url": "https://github.com/sandraschi/blender-mcp",
+      "tags": [
+        "Blender",
+        "3D建模",
+        "动画"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-153",
+      "name": "cadquery-mcp-server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "CadQuery MCP server，用 CAD-Query 生成、验证和导出参数化 3D 模型。",
+      "source_url": "https://github.com/rishigundakaram/cadquery-mcp-server",
+      "tags": [
+        "机械工程",
+        "工业设计工程",
+        "CAD"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-113",
+      "name": "Cai-aa/abaqus-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "帮有限元研究生让 agent 远程执行 Abaqus Python、查模型、提交 job、读 ODB、截图 viewport。",
+      "source_url": "https://github.com/Cai-aa/abaqus-mcp",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-045",
+      "name": "ccFenics-plugin",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "通过FEniCSx/DOLFINx搭建和求解PDE",
+      "source_url": "https://github.com/ekstanley/ccFenics-plugin",
+      "tags": [
+        "FEniCSx",
+        "PDE",
+        "有限元"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-193",
+      "name": "ChatSpatial",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "ChatSpatial 是空间转录组 MCP，用 20 个 schema-validated tools 编排 60+ 方法，支持 Visium/Xenium/MERFISH 等平台。",
+      "source_url": "https://github.com/cafferychen777/ChatSpatial",
+      "tags": [
+        "ChatSpatial",
+        "spatial transcriptomics",
+        "Visium"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-137",
+      "name": "ChEMBL-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "ChEMBL MCP，给 agent 访问 ChEMBL 化学/药物发现数据库，用于化合物和生物活性查询。",
+      "source_url": "https://github.com/Augmented-Nature/ChEMBL-MCP-Server",
+      "tags": [
+        "ChEMBL",
+        "化合物",
+        "药物发现"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-098",
+      "name": "ClaudeR",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "帮研究生用 agent 操作 R/RStudio，产出统计模型、图表、审查报告和可复现脚本。",
+      "source_url": "https://github.com/IMNMV/ClaudeR",
+      "tags": [
+        "统计学",
+        "应用统计",
+        "应用经济学"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-195",
+      "name": "CLI-Anything",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "CLI-Anything 目标是让任意命令行软件 agent-native，支持 Claude Code、OpenClaw、OpenCode、Codex 等平台。",
+      "source_url": "https://github.com/HKUDS/CLI-Anything",
+      "tags": [
+        "CLI-Anything",
+        "command line",
+        "Codex"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-133",
+      "name": "ClinicalTrials-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "ClinicalTrials.gov MCP，提供工具检索、筛选、比较和统计临床试验。",
+      "source_url": "https://github.com/Augmented-Nature/ClinicalTrials-MCP-Server",
+      "tags": [
+        "ClinicalTrials.gov",
+        "临床试验",
+        "RCT"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-241",
+      "name": "cnki-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "CNKI MCP 方向用于让 agent 查询中文文献和知网相关结果。",
+      "source_url": "https://glama.ai/mcp/servers/%40h-lu/cnki-mcp",
+      "tags": [
+        "CNKI",
+        "知网",
+        "中文文献"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-047",
+      "name": "COMSOL_Multiphysics_MCP",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "通过Java API操作COMSOL网格与求解流程",
+      "source_url": "https://github.com/juijunnarkar/COMSOL_Multiphysics_MCP",
+      "tags": [
+        "COMSOL",
+        "参数扫描",
+        "多物理场"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-035",
+      "name": "comsol-mph-analyzer",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "COMSOL .mph 分析、输入准备、网格/几何编辑、MCP；输出模型分析/输入文件/检查报告。",
+      "source_url": "https://github.com/wjgoarxiv/comsol-mph-analyzer",
+      "tags": [
+        "机械工程",
+        "材料科学与工程",
+        "电气工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-212",
+      "name": "Context-Fabric",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Context-Fabric 是 AI-native 语料库引擎，内置 MCP server，让 Claude/ChatGPT/Cursor 用自然语言查询标注语料。",
+      "source_url": "https://context-fabric.ai/",
+      "tags": [
+        "Context-Fabric",
+        "Text-Fabric",
+        "corpus linguistics"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-159",
+      "name": "CourtListener API Client + MCP",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "CourtListener API Client 自带 MCP server，让 agent 检索美国判例、案卷、法官和法律意见。",
+      "source_url": "https://github.com/freelawproject/courtlistener-api-client",
+      "tags": [
+        "法学",
+        "法律硕士",
+        "公共管理"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-169",
+      "name": "Data Commons MCP Server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "Data Commons MCP 让 agent 查询 Google Data Commons 知识图谱中的统计变量、地区和观测值。",
+      "source_url": "https://docs.datacommons.org/mcp/",
+      "tags": [
+        "Data Commons",
+        "统计变量",
+        "人口"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-222",
+      "name": "davinci-resolve-mcp",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "DaVinci Resolve MCP server 让 Claude Code/agent 调用 Resolve API 做时间线、剪辑、裁剪、字幕和导出。",
+      "source_url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "tags": [
+        "影视",
+        "剪辑",
+        "DaVinci Resolve"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-039",
+      "name": "docling-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "本地或远程文档转换与结构化处理",
+      "source_url": "https://github.com/docling-project/docling-mcp",
+      "tags": [
+        "PDF解析",
+        "结构化文档",
+        "本地处理"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-243",
+      "name": "EOSC Data Commons MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "EOSC Data Commons MCP 用于搜索开放科学数据和资源。",
+      "source_url": "https://github.com/EOSC-Data-Commons/data-commons-mcp",
+      "tags": [
+        "EOSC",
+        "research data",
+        "FAIR data"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-248",
+      "name": "exa-mcp-server",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Exa MCP 提供实时网页搜索和爬取，适合研究和工具发现。",
+      "source_url": "https://www.npmjs.com/package/exa-mcp-server",
+      "tags": [
+        "Exa",
+        "web search",
+        "web crawling"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-006",
+      "name": "excel-mcp-server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "问卷、实验记录和经管数据经常在 Excel，需要 agent 读取、清洗和修改工作簿",
+      "source_url": "https://github.com/haris-musa/excel-mcp-server",
+      "tags": [
+        "Excel",
+        "XLSX",
+        "数据清洗"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-206",
+      "name": "faostat-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "faostat-mcp 注册所有 FAOSTAT API 端点为 21 个 MCP 工具，支持国家/领域/指标检索、缓存和下载。",
+      "source_url": "https://github.com/berba-q/faostat-mcp",
+      "tags": [
+        "FAOSTAT",
+        "粮食安全",
+        "农业统计"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-003",
+      "name": "Fiji ImageJ MCP",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "显微图像分析需要让 agent 调用 Fiji/ImageJ 做分割、测量、批处理和 pipeline 设置",
+      "source_url": "https://github.com/surajinacademia/Fiji_imageJ_mcp",
+      "tags": [
+        "Fiji",
+        "ImageJ",
+        "显微图像"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-247",
+      "name": "firecrawl-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Firecrawl MCP 让 agent 搜索、抓取、交互和批量分析网页。",
+      "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "tags": [
+        "Firecrawl",
+        "web scraping",
+        "网页采集"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-172",
+      "name": "fred-mcp-server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "FRED MCP Server，把圣路易斯联储 FRED API 接给 agent，检索和读取 80 万+ 经济时间序列。",
+      "source_url": "https://github.com/stefanoamorelli/fred-mcp-server",
+      "tags": [
+        "FRED",
+        "宏观经济",
+        "时间序列"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-154",
+      "name": "freecad_mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "FreeCAD MCP 让 Claude/Cursor 等 MCP 客户端直接控制 FreeCAD，执行脚本、读取场景和做 prompt-assisted 3D CAD。",
+      "source_url": "https://github.com/bonninr/freecad_mcp",
+      "tags": [
+        "机械工程",
+        "工业设计工程",
+        "FreeCAD"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-145",
+      "name": "gis-mcp",
+      "type": "MCP",
+      "category": "图表展示",
+      "description": "通用 GIS MCP，用 GIS Python 库完成地理空间操作、转换、文件 I/O 和交互式地图可视化。",
+      "source_url": "https://github.com/mahdin75/gis-mcp",
+      "tags": [
+        "GIS",
+        "GeoJSON",
+        "Shapefile"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-106",
+      "name": "GLKB_tools",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "帮生物医学研究生查询 GLKB 知识图谱，产出实体关系、文献综述线索和假设。",
+      "source_url": "https://github.com/yuanhao96/GLKB_tools",
+      "tags": [
+        "基础医学",
+        "临床医学",
+        "药学"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-207",
+      "name": "google-earth-engine-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "google-earth-engine-mcp 让 Claude Code/Claude Desktop 用自然语言查询 GEE、取数据集、执行任务并可视化。",
+      "source_url": "https://github.com/cameronking4/google-earth-engine-mcp",
+      "tags": [
+        "Google Earth Engine",
+        "遥感",
+        "NDVI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-259",
+      "name": "google-surf-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Google Surf MCP 用本地 Chrome profile 做 Google 搜索，无需搜索 API key。",
+      "source_url": "https://www.npmjs.com/package/google-surf-mcp",
+      "tags": [
+        "Google Search",
+        "Chrome profile",
+        "Playwright"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-056",
+      "name": "gridscope",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "扫描透射电镜数字孪生与虚拟控制",
+      "source_url": "https://github.com/LambdaLearner/gridscope",
+      "tags": [
+        "电子显微镜",
+        "数字孪生",
+        "STEM"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-242",
+      "name": "Hugging Face MCP Server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "Hugging Face 官方 MCP 让 agent 访问模型、数据集和 Spaces 信息。",
+      "source_url": "https://huggingface.co/mcp",
+      "tags": [
+        "Hugging Face",
+        "模型",
+        "数据集"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-173",
+      "name": "imf-data-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "IMF Data MCP 基于 IMF SDMX API，列数据库、查维度代码、抓取 IMF 时间序列数据。",
+      "source_url": "https://github.com/c-cf/imf-data-mcp",
+      "tags": [
+        "IMF",
+        "SDMX",
+        "CPI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-203",
+      "name": "instrMCP",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "InstrMCP 是物理实验仪器 MCP 套件，通过 QCoDeS 和 JupyterLab 让 LLM 与测量系统交互。",
+      "source_url": "https://github.com/caijiaqi/instrMCP",
+      "tags": [
+        "实验物理",
+        "量子器件",
+        "QCoDeS"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-128",
+      "name": "jupyter-mcp-server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "把 AI agent 接到正在运行的 JupyterLab/Notebook：增删改 cell、执行代码、读取输出、列变量和包。",
+      "source_url": "https://github.com/datalayer/jupyter-mcp-server",
+      "tags": [
+        "Jupyter",
+        "Python",
+        "notebook"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-155",
+      "name": "kicad-mcp-pro",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "KiCad MCP Pro 让 agent 操作 KiCad 项目：原理图/PCB 检查、编辑、验证门、DFM/SI/PI 和制造导出。",
+      "source_url": "https://github.com/oaslananka/kicad-mcp-pro",
+      "tags": [
+        "电子科学与技术",
+        "信息与通信工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-132",
+      "name": "knowledgebase-mcp",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "BioContextAI Knowledgebase MCP，把常用生物医学资源统一成 MCP 接口，给 agent 提供可核验领域信息。",
+      "source_url": "https://github.com/biocontext-ai/knowledgebase-mcp",
+      "tags": [
+        "UniProt",
+        "biomedical resources",
+        "verified info"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-044",
+      "name": "Kratos-MCP-Server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "调用Kratos完成有限元计算流程",
+      "source_url": "https://github.com/loumalouomega/Kratos-MCP-Server",
+      "tags": [
+        "Kratos",
+        "有限元",
+        "后处理"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-164",
+      "name": "kreuzberg",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "Kreuzberg 是文档智能框架，支持 PDF/Office/图片等 50+ 格式提取、OCR、表格重建，并提供 MCP server。",
+      "source_url": "https://github.com/Goldziher/kreuzberg",
+      "tags": [
+        "PDF",
+        "Office",
+        "OCR"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-200",
+      "name": "LabVIEW MCP Server SDK Toolkit",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "LabVIEW MCP Server SDK Toolkit 让研究生/工程师在 LabVIEW 内开发 MCP servers，把现有 VI/应用接给 AI。",
+      "source_url": "https://www.vipm.io/package/jgoebel_lib_labview_mcp_server_sdk/",
+      "tags": [
+        "LabVIEW",
+        "NI",
+        "数据采集"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-201",
+      "name": "labview_assistant",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "labview_assistant 是 LabVIEW MCP server，可让 Claude Desktop 辅助创建/修改 LabVIEW VI。",
+      "source_url": "https://github.com/JanGoebel/labview_assistant",
+      "tags": [
+        "LabVIEW",
+        "VI generation",
+        "automatic wiring"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-139",
+      "name": "LeanTool",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "LeanTool 提供 Lean 4 的 MCP/code interpreter，让 Claude Code/Codex 类 agent 检查定理与证明。",
+      "source_url": "https://github.com/GasStationManager/LeanTool",
+      "tags": [
+        "数学",
+        "Lean 4",
+        "定理证明"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-263",
+      "name": "lit-search",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "lit-search 检索多源论文并输出 Markdown、BibTeX 和 PDF。",
+      "source_url": "https://www.npmjs.com/package/lit-search",
+      "tags": [
+        "Semantic Scholar",
+        "OpenAlex",
+        "arXiv"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-188",
+      "name": "litdb",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "litdb 把 PDF 转 markdown 后用 schema 抽取论文元数据/实验数据，并通过 MCP 查询本地文献库和 OpenAlex。",
+      "source_url": "https://github.com/jkitchin/litdb",
+      "tags": [
+        "literature database",
+        "Docling",
+        "OpenAlex"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-097",
+      "name": "matlab-mcp-core-server",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "帮研究生在 Claude Code/Codex 工作流里调用 MATLAB，产出计算结果、图表和脚本。",
+      "source_url": "https://github.com/matlab/matlab-mcp-core-server",
+      "tags": [
+        "数学",
+        "统计学",
+        "控制科学与工程"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-175",
+      "name": "mcp-civic-data",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "mcp-civic-data 连接 33 个美国政府/公共数据 API，覆盖人口、经济、劳动、环境、农业、健康、犯罪等。",
+      "source_url": "https://github.com/EricGrill/mcp-civic-data",
+      "tags": [
+        "Census",
+        "BLS",
+        "BEA"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-030",
+      "name": "mcp-data-science",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "数据清洗、统计、建模和可视化",
+      "source_url": "https://github.com/AstyanM/mcp-data-science",
+      "tags": [
+        "数据清洗",
+        "机器学习",
+        "统计"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-048",
+      "name": "mcp-fea",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "从STEP几何出发调用CalculiX进行有限元分析",
+      "source_url": "https://github.com/benchwire/mcp-fea",
+      "tags": [
+        "CalculiX",
+        "STEP",
+        "有限元"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-158",
+      "name": "mcp-kicad-sch-api",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "KiCad schematic MCP，用 MCP 暴露 KiCad 原理图库操作，支持创建原理图、添加器件、连线和层次设计。",
+      "source_url": "https://github.com/circuit-synth/mcp-kicad-sch-api",
+      "tags": [
+        "电子信息",
+        "电气工程",
+        "集成电路"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-163",
+      "name": "mcp-ocr",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "MCP OCR Server，用 Tesseract 从本地图片、URL 或字节数据提取多语言文字。",
+      "source_url": "https://github.com/rjn32s/mcp-ocr",
+      "tags": [
+        "OCR",
+        "Tesseract",
+        "史料"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-166",
+      "name": "mcp-open-library",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Open Library MCP，给 agent 检索 Internet Archive/Open Library 的图书、作者、封面和书目元数据。",
+      "source_url": "https://github.com/8enSmith/mcp-open-library",
+      "tags": [
+        "Open Library",
+        "Internet Archive",
+        "图书"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-244",
+      "name": "mcp-openfoodtox",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "OpenFoodTox MCP 帮 agent 查询食品安全/毒理相关数据库。",
+      "source_url": "https://glama.ai/mcp/servers/%40spyrosze/mcp-openfoodtox/inspect",
+      "tags": [
+        "OpenFoodTox",
+        "EFSA",
+        "食品安全"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-167",
+      "name": "mcp-openverse",
+      "type": "MCP",
+      "category": "图表展示",
+      "description": "Openverse MCP 搜索开放授权/公有领域图片，返回来源、许可证和 attribution 信息。",
+      "source_url": "https://github.com/neno-is-ooo/mcp-openverse",
+      "tags": [
+        "Openverse",
+        "CC license",
+        "public domain"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-168",
+      "name": "mcp-rdf-explorer",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "RDF Explorer MCP，让 agent 用 SPARQL 查询本地或远程 RDF 知识图谱并生成结构分析报告。",
+      "source_url": "https://github.com/emekaokoye/mcp-rdf-explorer",
+      "tags": [
+        "RDF",
+        "SPARQL",
+        "Wikidata"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-217",
+      "name": "mcp-server-ads",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "NASA ADS MCP server 接入 Astrophysics Data System，支持论文搜索、引用图遍历、BibTeX 导出和指标计算。",
+      "source_url": "https://github.com/cbyrohl/mcp-server-ads",
+      "tags": [
+        "NASA ADS",
+        "天体物理",
+        "文献检索"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-161",
+      "name": "mcp-server-legifrance",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Legifrance MCP server，给 agent 检索法国法律文本、法典条文和判例。",
+      "source_url": "https://github.com/rdassignies/mcp-server-legifrance",
+      "tags": [
+        "比较法",
+        "法国法",
+        "Legifrance"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-219",
+      "name": "mcp-servers-for-revit",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "Revit MCP 把 Autodesk Revit 接给 Claude Code/Cursor 等 MCP 客户端，可查询、创建、修改和删除 BIM 元素。",
+      "source_url": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit",
+      "tags": [
+        "建筑学",
+        "城乡规划学",
+        "土木工程"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-140",
+      "name": "mcp-wolfram-alpha",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "Wolfram Alpha MCP，把数值计算、公式、单位、物理/化学查询交给 Wolfram Alpha。",
+      "source_url": "https://github.com/cnosuke/mcp-wolfram-alpha",
+      "tags": [
+        "Wolfram Alpha",
+        "数学计算",
+        "物理公式"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-198",
+      "name": "mcpyvisa",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "mcpyvisa 把 PyVISA 仪器控制暴露成 MCP，可连接 Claude Code/Claude Desktop 控制 GPIB、USB-TMC、LAN 仪器。",
+      "source_url": "https://pypi.org/project/mcpyvisa/",
+      "tags": [
+        "实验物理",
+        "电子科学与技术",
+        "仪器科学与技术"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-052",
+      "name": "microscope-toolset",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "对接真实或虚拟显微镜进行实验操作",
+      "source_url": "https://github.com/dario-bassi/microscope-toolset",
+      "tags": [
+        "显微镜",
+        "图像采集",
+        "实验控制"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-038",
+      "name": "MinerU",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "论文PDF及扫描件转结构化文本、公式和表格",
+      "source_url": "https://github.com/opendatalab/MinerU",
+      "tags": [
+        "PDF解析",
+        "公式识别",
+        "OCR"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-004",
+      "name": "napari-mcp",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "显微/生物图像分析需要 agent 读取 napari 图层、控制 viewer、执行可视化和分析步骤",
+      "source_url": "https://github.com/royerlab/napari-mcp",
+      "tags": [
+        "napari",
+        "显微图像",
+        "生物图像"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-208",
+      "name": "NASA Earthdata MCP / CMR MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "NASA Earthdata/CMR MCP 通过 Earthaccess 接入 NASA 地球科学数据目录，支持数据集和 granule 搜索。",
+      "source_url": "https://github.com/nasa/earthdata-mcp",
+      "tags": [
+        "NASA Earthdata",
+        "CMR",
+        "Earthaccess"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-218",
+      "name": "NASA-MCP-server",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "NASA-MCP-server 统一 NASA Open API、JPL SSD 和 Earth Data API，给 agent 查天文、火星、近地天体和地球科学数据。",
+      "source_url": "https://github.com/ProgramComputer/NASA-MCP-server",
+      "tags": [
+        "NASA API",
+        "APOD",
+        "Mars Rover"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-190",
+      "name": "ngff-zarr",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "ngff-zarr 提供 OME NGFF-Zarr 实现和 MCP server，让 AI assistant 读取/交互大型显微图像数据。",
+      "source_url": "https://github.com/thewtex/ngff-zarr",
+      "tags": [
+        "microscopy",
+        "OME-Zarr",
+        "NGFF"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-043",
+      "name": "OASiS",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "统一接入多种开源有限元及多物理场求解器",
+      "source_url": "https://github.com/Hereon-InstituteMS/OASiS",
+      "tags": [
+        "有限元",
+        "多物理场",
+        "开源求解器"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-007",
+      "name": "obsidian-research-mcp",
+      "type": "MCP",
+      "category": "知识协作",
+      "description": "长期课题需要让 agent 搜索、读取、写入和整理 Obsidian 研究笔记库",
+      "source_url": "https://github.com/wienkers/obsidian-research-mcp",
+      "tags": [
+        "Obsidian",
+        "研究笔记",
+        "知识库"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-174",
+      "name": "OECD-MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "OECD MCP Server 提供 OECD 5000+ 经济和统计数据集的搜索、结构查询和数据获取。",
+      "source_url": "https://github.com/isakskogstad/OECD-MCP",
+      "tags": [
+        "OECD",
+        "SDMX",
+        "教育"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-005",
+      "name": "Office Word MCP Server",
+      "type": "MCP",
+      "category": "论文读写",
+      "description": "论文返修、报告和基金材料常是 Word 文档，需要 agent 创建、读取和修改 .docx",
+      "source_url": "https://github.com/GongRzhe/Office-Word-MCP-Server",
+      "tags": [
+        "Word",
+        "DOCX",
+        "学术文档"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-192",
+      "name": "omicverse",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "OmicVerse 提供多组学 Python 库和 MCP server，让 Claude Code/OpenClaw 用自然语言触发单细胞/空间转录组分析工具。",
+      "source_url": "https://github.com/Starlitnightly/omicverse",
+      "tags": [
+        "OmicVerse",
+        "single-cell",
+        "spatial RNA-seq"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-209",
+      "name": "open-meteo-mcp",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "open-meteo-mcp 提供综合天气、气候、空气质量、海洋和地理编码 MCP 工具。",
+      "source_url": "https://github.com/cmer81/open-meteo-mcp",
+      "tags": [
+        "Open-Meteo",
+        "天气",
+        "气候"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-171",
+      "name": "openecon-data",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "OpenEcon Data 提供统一经济数据 MCP，覆盖 FRED、BLS、World Bank、IMF、Census 等并支持导出。",
+      "source_url": "https://github.com/hanlulong/openecon-data",
+      "tags": [
+        "OpenEcon",
+        "FRED",
+        "BLS"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-176",
+      "name": "openedu-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "OpenEdu MCP Server 整合 Open Library、Wikipedia、Dictionary、arXiv，支持教育资源检索和课程规划。",
+      "source_url": "https://github.com/Cicatriiz/openedu-mcp",
+      "tags": [
+        "教育资源",
+        "课程设计",
+        "Open Library"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-151",
+      "name": "openfoam-mcp-server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "OpenFOAM MCP server，把 OpenFOAM 分析、参数抽取、错误诊断和教学式 CFD 解释接给 Claude Code。",
+      "source_url": "https://github.com/webworn/openfoam-mcp-server",
+      "tags": [
+        "流体力学",
+        "动力工程及工程热物理",
+        "航空宇航科学与技术"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-055",
+      "name": "openhcs",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "可复现的高内涵显微图像处理与测量",
+      "source_url": "https://github.com/OpenHCSDev/openhcs",
+      "tags": [
+        "高内涵成像",
+        "显微图像",
+        "批处理"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-136",
+      "name": "OpenTargets-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "Open Targets MCP，查询基因、疾病、target-disease association 和治疗靶点证据分数。",
+      "source_url": "https://github.com/Augmented-Nature/OpenTargets-MCP-Server",
+      "tags": [
+        "Open Targets",
+        "BRCA1",
+        "TP53"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-165",
+      "name": "openzim-mcp",
+      "type": "MCP",
+      "category": "知识协作",
+      "description": "OpenZIM MCP 把 ZIM 离线知识库变成 agent 可查询的 MCP，本地搜索 Wikipedia/Kiwix 等档案。",
+      "source_url": "https://github.com/cameronrye/openzim-mcp",
+      "tags": [
+        "OpenZIM",
+        "Kiwix",
+        "Wikipedia"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-001",
+      "name": "overleaf-mcp",
+      "type": "MCP",
+      "category": "论文读写",
+      "description": "论文、学位论文和报告写作需要 agent 读取、修改、编译和同步 Overleaf 项目",
+      "source_url": "https://github.com/ghostiee-11/overleaf-mcp",
+      "tags": [
+        "Overleaf",
+        "LaTeX",
+        "论文写作"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-100",
+      "name": "paper-fetcher",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮研究生按论文线索获取全文，产出 PDF、元数据和可读材料包。",
+      "source_url": "https://github.com/fermionoid/paper-fetcher",
+      "tags": [
+        "通用科研方法",
+        "文献管理",
+        "学术写作"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-257",
+      "name": "paper-search-mcp-nodejs",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "paper-search-mcp-nodejs 搜索并下载多源学术论文。",
+      "source_url": "https://www.npmjs.com/package/paper-search-mcp-nodejs",
+      "tags": [
+        "arXiv",
+        "PubMed",
+        "bioRxiv"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-256",
+      "name": "paperplain-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "paperplain-mcp 搜索 PubMed、arXiv、Semantic Scholar 等论文源。",
+      "source_url": "https://www.npmjs.com/package/paperplain-mcp",
+      "tags": [
+        "PubMed",
+        "arXiv",
+        "Semantic Scholar"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-135",
+      "name": "PDB-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "PDB MCP，让 agent 查询 Protein Data Bank 结构、坐标、mmCIF、验证数据、配体和结合位点。",
+      "source_url": "https://github.com/Augmented-Nature/PDB-MCP-Server",
+      "tags": [
+        "PDB",
+        "蛋白结构",
+        "配体"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-224",
+      "name": "phonetik",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Phonetik MCP 提供英语语音分析：押韵检测、重音扫描、格律识别和音节计数。",
+      "source_url": "https://github.com/Void-n-Null/phonetik",
+      "tags": [
+        "phonetics",
+        "押韵",
+        "重音"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-051",
+      "name": "plr-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "通过PyLabRobot控制实验设备，默认模拟模式",
+      "source_url": "https://github.com/di-omics/plr-mcp",
+      "tags": [
+        "实验自动化",
+        "移液",
+        "PyLabRobot"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-223",
+      "name": "PPTAgent",
+      "type": "MCP",
+      "category": "图表展示",
+      "description": "PPTAgent 是 agent 驱动的 PowerPoint 自动生成框架，支持模板、自由形式生成、PPTX 输出和离线模式。",
+      "source_url": "https://github.com/icip-cas/PPTAgent",
+      "tags": [
+        "PPTAgent",
+        "PowerPoint",
+        "PPTX"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-144",
+      "name": "qgis_mcp",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "QGISMCP 连接 QGIS Desktop 和 Claude，通过 MCP 操作项目、图层、Processing 工具箱、PyQGIS 和地图渲染。",
+      "source_url": "https://github.com/jjsantos01/qgis_mcp",
+      "tags": [
+        "QGIS",
+        "PyQGIS",
+        "GIS"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-105",
+      "name": "QGIS-MCP-Server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "帮地理、遥感、农学和环境方向研究生控制 QGIS，产出图层、空间分析结果和地图截图。",
+      "source_url": "https://github.com/jkoets/QGIS-MCP-Server",
+      "tags": [
+        "地理学",
+        "测绘科学与技术",
+        "遥感科学与技术"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-031",
+      "name": "r-stats-mcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "持续R会话中的统计检验、回归与生存分析",
+      "source_url": "https://github.com/Ian3738/r-stats-mcp",
+      "tags": [
+        "统计检验",
+        "回归"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-204",
+      "name": "ras-commander-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "RAS Commander MCP 让 Claude Code/Claude Desktop 查询 HEC-RAS 项目、结果 HDF、计划、几何和运行诊断。",
+      "source_url": "https://github.com/gpt-cmdr/ras-commander-mcp",
+      "tags": [
+        "水利工程",
+        "土木水利",
+        "水文学"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-046",
+      "name": "raspa-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "调用RASPA2模拟多孔材料分子吸附",
+      "source_url": "https://github.com/lichman0405/raspa-mcp",
+      "tags": [
+        "RASPA2",
+        "多孔材料",
+        "分子模拟"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-221",
+      "name": "reaper-mcp",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "reaper-mcp 把 REAPER 数字音频工作站变成 MCP 工具，支持 MIDI、音频、混音、自动化和母带处理。",
+      "source_url": "https://github.com/itsuzef/reaper-mcp",
+      "tags": [
+        "音乐",
+        "REAPER",
+        "MIDI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-240",
+      "name": "Research Hub MCP",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Research Hub MCP 聚合多个论文源，帮助 agent 查询论文和整理研究线索。",
+      "source_url": "https://www.pulsemcp.com/servers/tlkahn-research-hub",
+      "tags": [
+        "research hub",
+        "arXiv",
+        "Semantic Scholar"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-220",
+      "name": "rhino_mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "RhinoMCP 连接 Rhino、Grasshopper 和 Claude，让 agent 直接与 Rhino 3D/Grasshopper 交互。",
+      "source_url": "https://github.com/reer-ide/rhino_mcp",
+      "tags": [
+        "建筑学",
+        "工业设计",
+        "参数化设计"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-127",
+      "name": "rmcp",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "R MCP Server，提供统计分析工具和 CRAN 包映射，可用自然语言跑回归、计量、机器学习和时间序列。",
+      "source_url": "https://github.com/finite-sample/rmcp",
+      "tags": [
+        "统计学",
+        "计量经济学",
+        "机器学习"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-104",
+      "name": "scholar-search",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮中文研究生统一搜中英文论文，产出论文列表、访问路径和候选全文。",
+      "source_url": "https://github.com/zhdzh12138/scholar-search",
+      "tags": [
+        "通用科研方法",
+        "文献管理",
+        "学术写作"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-255",
+      "name": "scholar-sidekick-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Scholar Sidekick MCP 解析学术标识符，导出引用格式并查撤稿/开放获取。",
+      "source_url": "https://www.npmjs.com/package/scholar-sidekick-mcp",
+      "tags": [
+        "DOI",
+        "PMID",
+        "PMCID"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-260",
+      "name": "scholarly-research-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "scholarly-research-mcp 聚合 PubMed、arXiv、Google Scholar 和 JSTOR。",
+      "source_url": "https://www.npmjs.com/package/scholarly-research-mcp",
+      "tags": [
+        "PubMed",
+        "ArXiv",
+        "Google Scholar"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-102",
+      "name": "semantic-scholar-skills",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮研究生搜索论文、追引用和找相关工作，产出论文列表、引用网络和推荐。",
+      "source_url": "https://github.com/zongmin-yu/semantic-scholar-skills",
+      "tags": [
+        "通用科研方法",
+        "文献管理",
+        "学术写作"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-202",
+      "name": "sigrok-mcp-server",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "sigrok-mcp-server 包装 sigrok-cli，让 Codex/Claude/Cursor 抓取、解码和分析逻辑分析仪/测量设备数据。",
+      "source_url": "https://github.com/kenosinc/sigrok-mcp-server",
+      "tags": [
+        "嵌入式",
+        "电子信息",
+        "逻辑分析仪"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-213",
+      "name": "sketch-engine-mcp-server",
+      "type": "MCP",
+      "category": "通用科研",
+      "description": "Sketch Engine MCP 连接 Claude 到 Sketch Engine，让 agent 在对话中做语料库检索和文本分析。",
+      "source_url": "https://github.com/ricCap/sketch-engine-mcp-server",
+      "tags": [
+        "Sketch Engine",
+        "corpus linguistics",
+        "collocation"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-265",
+      "name": "Skimle MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "Skimle MCP 把质性研究项目接给 Claude/Cursor，让 agent 读写文档、洞见、分类和备忘录。",
+      "source_url": "https://skimle.com/mcp",
+      "tags": [
+        "qualitative research",
+        "访谈",
+        "扎根理论"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-CAD-002",
+      "name": "SolidworksMCP-python",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "需要通过 MCP 让 agent 调用 SolidWorks 建模、草图、工程图、导出和宏工作流",
+      "source_url": "https://github.com/andrewbartels1/SolidworksMCP-python",
+      "tags": [
+        "SolidWorks",
+        "MCP",
+        "CAD"
+      ],
+      "catalog_record_date": null,
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-101",
+      "name": "SPSS-MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "帮心理学、教育学、管理学研究生在 SPSS 中完成统计分析，产出表格、模型和结果解释。",
+      "source_url": "https://github.com/Exekiel179/SPSS-MCP",
+      "tags": [
+        "心理学",
+        "教育学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-110",
+      "name": "strata-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮研究生把论文检索、分析、gap 和草稿保存在项目级 SQLite 研究库里。",
+      "source_url": "https://github.com/vjrivmon/strata-mcp",
+      "tags": [
+        "通用科研方法",
+        "文献管理",
+        "学术写作"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-138",
+      "name": "SureChEMBL-MCP-Server",
+      "type": "MCP",
+      "category": "生医实验",
+      "description": "SureChEMBL MCP，用于访问化学专利数据库，搜索化学物质和专利文档内容。",
+      "source_url": "https://github.com/Augmented-Nature/SureChEMBL-MCP-Server",
+      "tags": [
+        "SureChEMBL",
+        "化学专利",
+        "知识产权"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-205",
+      "name": "SWAT-Copilot MCP Server",
+      "type": "MCP",
+      "category": "图表展示",
+      "description": "SWAT-Copilot MCP 给 LLM 提供 SWAT 项目资源、输出文件、分析、绘图和文档 RAG 工具。",
+      "source_url": "https://mcps.live/server/swat-copilot-mcp-server-9196",
+      "tags": [
+        "农业资源与环境",
+        "水文学",
+        "SWAT"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-270",
+      "name": "tavily-mcp",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Tavily MCP 提供高级网页搜索和抽取，可用于调研与工具采集。",
+      "source_url": "https://www.npmjs.com/package/tavily-mcp",
+      "tags": [
+        "Tavily",
+        "web search",
+        "web extraction"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-199",
+      "name": "usbtmc-lite-mcp",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "usbtmc-lite-mcp 用 USBTMC + SCPI 控制多台测量仪器，支持设备扫描、连接、命令、查询和示波器截图。",
+      "source_url": "https://pypi.org/project/usbtmc-lite-mcp/",
+      "tags": [
+        "电子信息",
+        "电气工程",
+        "仪器科学"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-170",
+      "name": "World Bank Data360 MCP",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "World Bank Data360 MCP，把 WDI/SDG 等世界银行指标接给 agent，支持指标发现、元数据、时间序列和图表规格。",
+      "source_url": "https://github.com/worldbank/data360-mcp",
+      "tags": [
+        "World Bank",
+        "Data360",
+        "WDI"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-099",
+      "name": "zotero-mcp-claude-code",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "帮研究生查询、整理和调用 Zotero 文献库，产出文献条目、笔记和引用材料。",
+      "source_url": "https://github.com/lricher7329/zotero-mcp-claude-code",
+      "tags": [
+        "通用科研方法",
+        "文献管理",
+        "学术写作"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-028",
+      "name": "zotpilot",
+      "type": "MCP",
+      "category": "文献研究",
+      "description": "Zotero MCP + agent skill；输出Zotero 查询/笔记/管理。",
+      "source_url": "https://github.com/xunhe730/zotpilot",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-013",
+      "name": "literature-review-toolkit",
+      "type": "工具包",
+      "category": "文献研究",
+      "description": "核验引用并生成带注释文献表及研究脉络图",
+      "source_url": "https://github.com/gallantlab/literature-review-toolkit",
+      "tags": [
+        "文献表",
+        "引用核验",
+        "研究脉络"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-022",
+      "name": "manubot",
+      "type": "工具包",
+      "category": "论文读写",
+      "description": "自动获取引用元数据并支持可版本管理的学术写作",
+      "source_url": "https://github.com/manubot/manubot",
+      "tags": [
+        "协作写作",
+        "Markdown",
+        "引用"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-288",
+      "name": "Origin 科研绘图与 Codex 自动化工具集",
+      "type": "工具包",
+      "category": "图表展示",
+      "description": "用图形程序或 Codex Skill 读取 Excel，生成散点图、折线图和点线图，并按本机软件环境输出 OPJU、SVG 或 CDR。",
+      "source_url": "https://github.com/GG-pro-viki/Origin",
+      "tags": [
+        "Origin",
+        "OriginPro",
+        "科研绘图"
+      ],
+      "catalog_record_date": "2026-07-18",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-015",
+      "name": "PaperQA2（paper-qa）",
+      "type": "工具包",
+      "category": "文献研究",
+      "description": "基于本地论文集合进行带引用的问答",
+      "source_url": "https://github.com/Future-House/paper-qa",
+      "tags": [
+        "论文问答",
+        "RAG",
+        "引用"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-211",
+      "name": "quallmer",
+      "type": "工具包",
+      "category": "数据分析",
+      "description": "quallmer 是 R 包，用 LLM 对文本/图片/PDF/表格做 codebook-based 质性编码，并生成可靠性与审计报告。",
+      "source_url": "https://quallmer.github.io/quallmer/",
+      "tags": [
+        "quallmer",
+        "LLM qualitative coding",
+        "codebook"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-036",
+      "name": "abaqus-cli",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "Abaqus FEA CLI 封装；输出仿真脚本/运行结果。",
+      "source_url": "https://github.com/LuckYang1/abaqus-cli",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-086",
+      "name": "claudian",
+      "type": "插件",
+      "category": "知识协作",
+      "description": "在 Obsidian vault 中嵌入 Claude Code/Codex；输出vault 内协作/笔记/项目文件。",
+      "source_url": "https://github.com/YishenTu/claudian",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-033",
+      "name": "sim-plugin-abaqus",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "CAE/noGUI authoring、batch jobs、ODB diagnostics；输出inp/odb/诊断报告。",
+      "source_url": "https://github.com/svd-ai-lab/sim-plugin-abaqus",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-032",
+      "name": "sim-plugin-comsol",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "检查 .mph、Desktop live session、bounded execution；输出mph 检查/运行结果/artifact。",
+      "source_url": "https://github.com/svd-ai-lab/sim-plugin-comsol",
+      "tags": [
+        "机械工程",
+        "材料科学与工程",
+        "电气工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-034",
+      "name": "sim-plugin-workbench",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "journals、项目检查、Mechanical handoff；输出journal/项目检查/结果。",
+      "source_url": "https://github.com/svd-ai-lab/sim-plugin-workbench",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-039",
+      "name": "simulink-automation-suite",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "AI 辅助 Simulink 自动化；输出Simulink 模型/脚本/结果。",
+      "source_url": "https://github.com/Mistakey/simulink-automation-suite",
+      "tags": [
+        "控制科学与工程",
+        "电气工程",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-258",
+      "name": "@mcptoolshop/research-os",
+      "type": "CLI",
+      "category": "通用科研",
+      "description": "Research OS 是本地优先的研究控制平面，管理来源、证据、引用和综合。",
+      "source_url": "https://www.npmjs.com/package/@mcptoolshop/research-os",
+      "tags": [
+        "Research OS",
+        "source packs",
+        "evidence"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-272",
+      "name": "add-mcp",
+      "type": "CLI",
+      "category": "通用科研",
+      "description": "add-mcp 用一条命令把 MCP server 添加到 Claude Code、Codex、Cursor 等客户端。",
+      "source_url": "https://www.npmjs.com/package/add-mcp",
+      "tags": [
+        "add MCP",
+        "Claude Code",
+        "Codex"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-042",
+      "name": "PaperStructure",
+      "type": "CLI",
+      "category": "文献研究",
+      "description": "使用ONNX模型将论文PDF转Markdown",
+      "source_url": "https://github.com/yuanjua/PaperStructure",
+      "tags": [
+        "轻量OCR",
+        "PDF",
+        "公式识别"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-150",
+      "name": "agent-skills-guard",
+      "type": "工具",
+      "category": "图表展示",
+      "description": "Agent Skills Guard 提供技能扫描、风险检测、可视化管理和一键安装/卸载，降低乱装 skills 的风险。",
+      "source_url": "https://github.com/brucevanfdm/agent-skills-guard",
+      "tags": [
+        "skill security",
+        "技能管理",
+        "风险扫描"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-014",
+      "name": "ASReview LAB",
+      "type": "工具",
+      "category": "文献研究",
+      "description": "主动学习辅助文献筛选",
+      "source_url": "https://github.com/asreview/asreview",
+      "tags": [
+        "系统综述",
+        "文献筛选",
+        "主动学习"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-041",
+      "name": "claude-code_auto_simulink",
+      "type": "工作流",
+      "category": "专业软件",
+      "description": "自动搭建 Simulink 模型；输出Simulink 模型。",
+      "source_url": "https://github.com/bruce-jack-up/claude-code_auto_simulink",
+      "tags": [
+        "控制科学与工程",
+        "电气工程",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-057",
+      "name": "elabftw",
+      "type": "工具",
+      "category": "知识协作",
+      "description": "实验记录、协议、设备资源及团队协作管理",
+      "source_url": "https://github.com/elabftw/elabftw",
+      "tags": [
+        "实验记录",
+        "团队协作",
+        "设备管理"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-085",
+      "name": "feishu-docx",
+      "type": "工具",
+      "category": "知识协作",
+      "description": "飞书文档/表格/多维表格 ↔ Markdown；输出Markdown/飞书文档/知识库。",
+      "source_url": "https://github.com/leemysw/feishu-docx",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-040",
+      "name": "grobid",
+      "type": "工具",
+      "category": "文献研究",
+      "description": "论文全文及参考文献转结构化数据",
+      "source_url": "https://github.com/grobidOrg/grobid",
+      "tags": [
+        "参考文献提取",
+        "PDF",
+        "TEI"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-035",
+      "name": "jamovi",
+      "type": "工具",
+      "category": "数据分析",
+      "description": "图形界面统计分析及R语法输出",
+      "source_url": "https://github.com/jamovi/jamovi",
+      "tags": [
+        "统计分析",
+        "jamovi"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-036",
+      "name": "JASP",
+      "type": "工具",
+      "category": "数据分析",
+      "description": "图形界面贝叶斯与频率学派统计分析",
+      "source_url": "https://github.com/jasp-stats/jasp-desktop",
+      "tags": [
+        "贝叶斯",
+        "统计检验",
+        "JASP"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-040",
+      "name": "matlab-simulink-claude",
+      "type": "工作流",
+      "category": "专业软件",
+      "description": "Claude Code 和 Python 连接 MATLAB/Simulink；输出仿真脚本/模型。",
+      "source_url": "https://github.com/tomduf70/matlab-simulink-claude",
+      "tags": [
+        "控制科学与工程",
+        "电气工程",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-184",
+      "name": "mcpserver-audit",
+      "type": "工具",
+      "category": "通用科研",
+      "description": "mcpserver-audit 扫描 MCP servers 和 Claude Desktop Extensions，查安全漏洞与风险。",
+      "source_url": "https://github.com/ModelContextProtocol-Security/mcpserver-audit",
+      "tags": [
+        "MCP security",
+        "MCP audit",
+        "vulnerability"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-049",
+      "name": "MFC 多相流模拟",
+      "type": "工具",
+      "category": "专业软件",
+      "description": "多相可压缩流动的高性能数值模拟",
+      "source_url": "https://github.com/MFlowCode/MFC",
+      "tags": [
+        "多相流",
+        "CFD",
+        "高性能计算"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-026",
+      "name": "NanaDraw",
+      "type": "工具",
+      "category": "图表展示",
+      "description": "论文方法说明转可编辑科研示意图",
+      "source_url": "https://github.com/Shannon4Science/NanaDraw",
+      "tags": [
+        "科研示意图",
+        "方法图",
+        "可编辑"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-041",
+      "name": "opendataloader-pdf",
+      "type": "工具",
+      "category": "文献研究",
+      "description": "PDF解析为带版面位置的结构化内容",
+      "source_url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "tags": [
+        "PDF解析",
+        "版面坐标",
+        "结构化"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-016",
+      "name": "OpenMetaMate",
+      "type": "工具",
+      "category": "文献研究",
+      "description": "自定义论文数据抽取字段并对照页码核验",
+      "source_url": "https://github.com/GaoxiangLuo/OpenMetaMate",
+      "tags": [
+        "数据抽取",
+        "系统综述",
+        "Meta分析"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-149",
+      "name": "OpenSkills",
+      "type": "工具",
+      "category": "通用科研",
+      "description": "OpenSkills 是通用 skills 安装/同步器，让 Claude Skills 可用于 Codex、Cursor、Windsurf、Aider 等 agent。",
+      "source_url": "https://github.com/numman-ali/openskills",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-037",
+      "name": "Orange Data Mining",
+      "type": "工具",
+      "category": "数据分析",
+      "description": "可视化搭建数据分析与机器学习流程",
+      "source_url": "https://github.com/biolab/orange3",
+      "tags": [
+        "可视化编程",
+        "机器学习",
+        "数据探索"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-031",
+      "name": "sim-cli",
+      "type": "工作流",
+      "category": "专业软件",
+      "description": "Codex/Claude Code 操作 CAE 求解器的 CLI 总线；输出仿真项目/日志/结果 artifact。",
+      "source_url": "https://github.com/svd-ai-lab/sim-cli",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-185",
+      "name": "skillfortify",
+      "type": "工具",
+      "category": "通用科研",
+      "description": "SkillFortify 扫描 AI agent skills/plugins/MCP 等工具，做静态分析、供应链验证和 SBOM。",
+      "source_url": "https://github.com/varun369/skillfortify",
+      "tags": [
+        "skill security",
+        "plugin security",
+        "MCP"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-231",
+      "name": "SkillRisk",
+      "type": "工具",
+      "category": "通用科研",
+      "description": "SkillRisk 在浏览器本地扫描 SKILL.md、hook scripts 和 MCP 配置，检测恶意下载、凭证窃取、SSRF 和 prompt injection。",
+      "source_url": "https://skillrisk.org/",
+      "tags": [
+        "SkillRisk",
+        "skill security",
+        "MCP SSRF"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-029",
+      "name": "WebPlotDigitizer",
+      "type": "工具",
+      "category": "图表展示",
+      "description": "从论文曲线图或散点图提取数值",
+      "source_url": "https://github.com/automeris-io/WebPlotDigitizer",
+      "tags": [
+        "曲线取数",
+        "图像数字化",
+        "论文数据"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-108",
+      "name": "consensus-research-skill",
+      "type": "Skill + MCP",
+      "category": "论文读写",
+      "description": "帮研究生把证据检索变成综述草稿、阅读清单和 Word 输出。",
+      "source_url": "https://github.com/Drignacioalcala/consensus-research-skill",
+      "tags": [
+        "公共卫生与预防医学",
+        "临床医学",
+        "教育学"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-177",
+      "name": "education-agent-skills",
+      "type": "Skill + MCP",
+      "category": "数据分析",
+      "description": "Education Agent Skills Library 提供 131 个基于证据的教育 skill，支持 Claude、Codex 和 MCP 连接。",
+      "source_url": "https://github.com/GarethManning/claude-education-skills",
+      "tags": [
+        "教育学",
+        "课程设计",
+        "教学评价"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-012",
+      "name": "论文X光机 / ljg-skill-xray-paper",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "解构论文、提炼核心公式/贡献；输出论文结构拆解/餐巾纸公式。",
+      "source_url": "https://github.com/lijigang/ljg-skill-xray-paper",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-024",
+      "name": "academic-figures-drawer",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "将方法说明变成可编辑科研图",
+      "source_url": "https://github.com/M1n-n9/academic-figures-drawer",
+      "tags": [
+        "可编辑科研图",
+        "模型结构",
+        "draw.io"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-015",
+      "name": "academic-paper-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "论文规划与写作框架；输出论文大纲/章节草稿/检查点。",
+      "source_url": "https://github.com/lishix520/academic-paper-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-018",
+      "name": "Academic-Paper-Skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "论文写作、图表和审查工作流",
+      "source_url": "https://github.com/DELONG-L/Academic-Paper-Skills",
+      "tags": [
+        "论文写作",
+        "图表",
+        "审稿"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-025",
+      "name": "academic-ppt-master",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "论文转可编辑学术PPTX",
+      "source_url": "https://github.com/M1n-n9/academic-ppt-master",
+      "tags": [
+        "论文转PPT",
+        "答辩",
+        "组会"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-225",
+      "name": "academic-rebuttal-manager",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "Academic Rebuttal Manager 帮研究生把审稿意见拆成任务清单，生成逐条回复、修订计划和核验清单。",
+      "source_url": "https://mcpmarket.com/tools/skills/academic-rebuttal-manager",
+      "tags": [
+        "rebuttal",
+        "response to reviewers",
+        "manuscript revision"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-011",
+      "name": "academic-research-agent-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "文献基础、创新性检查、数学表述与实验规划",
+      "source_url": "https://github.com/ngtiendong/Academic-Research-Agent-Skill",
+      "tags": [
+        "选题",
+        "创新性",
+        "实验规划"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-003",
+      "name": "academic-research-skills",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "research → write → review → revise → finalize；输出研究计划/文献综述/论文草稿/审稿报告/引用核验/修订稿。",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/blob/main/README.zh-CN.md",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-020",
+      "name": "academic-writing-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "已有论文的格式检查、语言修改和引用核验",
+      "source_url": "https://github.com/bahayonghang/academic-writing-skills",
+      "tags": [
+        "论文修改",
+        "格式检查",
+        "引用核验"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-007",
+      "name": "agent-research-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "系统文献综述与研究流程；输出综述/实验设计/PPT。",
+      "source_url": "https://github.com/lingzhi227/agent-research-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-008",
+      "name": "ai-research-skills",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "Zotero/NotebookLM/多 CLI 研究流程；输出文献筛选/研究设计/手稿。",
+      "source_url": "https://github.com/WenyuChiou/ai-research-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-226",
+      "name": "ARIS rebuttal skill",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "ARIS rebuttal skill 解析外部审稿意见，强制覆盖和 grounding，生成安全文本回复与修订核对表。",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/rebuttal/SKILL.md",
+      "tags": [
+        "rebuttal",
+        "external reviews",
+        "camera-ready"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-056",
+      "name": "causal-inference-mixtape",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "DID、RDD、IV、Synthetic Control、Matching；输出因果推断代码/解释。",
+      "source_url": "https://github.com/Jill0099/causal-inference-mixtape",
+      "tags": [
+        "理论经济学",
+        "应用经济学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-051",
+      "name": "chemist",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "自然语言驱动 atomistic simulations 和 molecular dynamics；输出模拟输入/解释/报告。",
+      "source_url": "https://github.com/scaliaven/chemist",
+      "tags": [
+        "化学",
+        "药学",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-122",
+      "name": "Claude-Code-Skills-for-Academics",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "给学术实证金融工作流的技能集合：R 计量、数据 profiling、论文编辑、审稿、Beamer 和教学同步。",
+      "source_url": "https://github.com/aspi6246/Claude-Code-Skills-for-Academics",
+      "tags": [
+        "金融",
+        "应用经济学",
+        "面板数据"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-055",
+      "name": "claude-code-skills-social-science",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "DID、RCT、回归诊断、可视化、综述；输出模型代码/诊断/图表。",
+      "source_url": "https://github.com/sshtomar/claude-code-skills-social-science",
+      "tags": [
+        "理论经济学",
+        "应用经济学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-160",
+      "name": "claude-legal-skill",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "合同审查 skill，基于 CUAD/LegalBench 思路做首轮合同风险识别、条款抽取和 redline 建议。",
+      "source_url": "https://github.com/evolsb/claude-legal-skill",
+      "tags": [
+        "法律硕士",
+        "合同审查",
+        "CUAD"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-121",
+      "name": "claude-skills-journalism",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "给新闻、媒体、学术研究者的 Claude Code skills，覆盖采访、事实核查、数据新闻、网页归档和 academic writing。",
+      "source_url": "https://github.com/jamditis/claude-skills-journalism",
+      "tags": [
+        "新闻传播学",
+        "社会学",
+        "公共管理"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-023",
+      "name": "codex-paper-figure-skill",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "从论文内容生成可编辑draw.io图",
+      "source_url": "https://github.com/pengqianhan/codex-paper-figure-skill",
+      "tags": [
+        "科研绘图",
+        "draw.io",
+        "技术路线"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-011",
+      "name": "dailypaper-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "论文流水线、日更论文、读写一体；输出论文笔记/日报/流水线文件。",
+      "source_url": "https://github.com/huangkiki/dailypaper-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-013",
+      "name": "DeepPaperNote",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "单篇论文深读并生成 Obsidian 笔记；输出深度论文笔记。",
+      "source_url": "https://github.com/917Dhj/DeepPaperNote",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-229",
+      "name": "DeepSlides group meeting skill",
+      "type": "Skill",
+      "category": "知识协作",
+      "description": "DeepSlides Group Meeting Slides Generator 从论文/研究材料生成组会幻灯片，支持 Claude Code、Cursor、Codex。",
+      "source_url": "https://aiagentivo.com/skills/internscience-drclaw-deepslides-group-meeting-slides-generator",
+      "tags": [
+        "group meeting",
+        "lab meeting",
+        "paper sharing"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-050",
+      "name": "defect-calculation",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "半导体/绝缘体 VASP 点缺陷计算；输出计算输入/分析。",
+      "source_url": "https://github.com/Xinjing-Guo/defect-calculation",
+      "tags": [
+        "材料科学与工程",
+        "化学",
+        "物理学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-048",
+      "name": "DFT_Skills",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "文献 grounded DFT & VASP workflow；输出计算输入/项目包/报告。",
+      "source_url": "https://github.com/FonaTech/DFT_Skills",
+      "tags": [
+        "材料科学与工程",
+        "化学",
+        "物理学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-267",
+      "name": "Economist Analyst",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "Economist Analyst skill 用供需、博弈、激励和多学派框架分析经济事件。",
+      "source_url": "https://mcpmarket.com/tools/skills/economist-analyst-1",
+      "tags": [
+        "economic analysis",
+        "policy analysis",
+        "market events"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-017",
+      "name": "latex-arxiv-SKILL",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "LaTeX论文流程与BibTeX引用核验",
+      "source_url": "https://github.com/appautomaton/latex-arxiv-SKILL",
+      "tags": [
+        "LaTeX",
+        "综述写作",
+        "BibTeX"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-010",
+      "name": "lit-review-skill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "查找支撑文献，审计引用真伪和论据支持度",
+      "source_url": "https://github.com/Zachariah9420/lit-review-skill",
+      "tags": [
+        "引用核验",
+        "文献检索",
+        "论据支持"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-012",
+      "name": "LitReviewSkill",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "组织迭代检索与文献综述工作流",
+      "source_url": "https://github.com/Zsun79/LitReviewSkill",
+      "tags": [
+        "文献综述",
+        "引用扩展",
+        "知识图"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-091",
+      "name": "MathModeling-skills",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "分阶段建模流程、Python/MATLAB/北太天元；输出模型/代码/论文。",
+      "source_url": "https://github.com/KyrieZhang329/MathModeling-skills",
+      "tags": [
+        "数学",
+        "统计学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-090",
+      "name": "matlab-plot-skill",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "修复 MATLAB 图、期刊级 subplot、PDF export；输出PDF/图表代码。",
+      "source_url": "https://github.com/hanlulong/matlab-plot-skill",
+      "tags": [
+        "数学",
+        "统计学",
+        "机械工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-116",
+      "name": "meta-harness",
+      "type": "Skill",
+      "category": "专业软件",
+      "description": "把 Harness 思路移植到 Codex/AGENTS.md 生态，生成研究专用 skills、团队规范和确定性交接文件。",
+      "source_url": "https://github.com/SaehwanPark/meta-harness",
+      "tags": [
+        "Codex",
+        "AGENTS.md",
+        "技能生成"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-010",
+      "name": "Nature-Paper-Skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "Nature 投稿全流程：初稿、引用、Data Availability、返修；输出投稿检查/回复信/修订稿。",
+      "source_url": "https://github.com/Boom5426/Nature-Paper-Skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-009",
+      "name": "nature-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "Nature 风格写作、润色、读论文、绘图、返修；输出润色文本/图表/PPT/回复信。",
+      "source_url": "https://github.com/Yuan1z0825/nature-skills",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-064",
+      "name": "OpenClaw-Medical-Skills",
+      "type": "Skill",
+      "category": "生医实验",
+      "description": "大型医学 AI skills library；输出医学分析/报告/图表。",
+      "source_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "tags": [
+        "基础医学",
+        "临床医学",
+        "公共卫生与预防医学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-005",
+      "name": "orchestra-research/ai-research-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "AI research/engineering skills；输出研究工作流/训练脚本/论文。",
+      "source_url": "https://github.com/orchestra-research/ai-research-skills",
+      "tags": [
+        "计算机科学与技术",
+        "软件工程",
+        "电子信息"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-028",
+      "name": "Paper2ScholarSlides",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "综述材料和模板转带引用的学术汇报",
+      "source_url": "https://github.com/ficooooo/Paper2ScholarSlides",
+      "tags": [
+        "综述汇报",
+        "学校模板",
+        "引用"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-287",
+      "name": "PaperSpine",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "帮研究生把论文/报告写作从“润色一句话”升级成可审计工作流：先学目标期刊/会议和强论文，再生成动机、证据、引文、改写矩阵与 LaTeX/Word/PDF 产物。",
+      "source_url": "https://github.com/WUBING2023/PaperSpine",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-30",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-027",
+      "name": "powerpoint-skill",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "生成包含公式与图示的PowerPoint",
+      "source_url": "https://github.com/Noi1r/powerpoint-skill",
+      "tags": [
+        "PowerPoint",
+        "数学公式",
+        "学术汇报"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-210",
+      "name": "qualitative-coding-workflow",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "Qualitative Coding Workflow skill 编排批量文档编码、理论/经验双流分析、解释暂停和审计轨迹。",
+      "source_url": "https://mcpmarket.com/tools/skills/qualitative-coding-workflow-1",
+      "tags": [
+        "质性研究",
+        "访谈",
+        "扎根理论"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-021",
+      "name": "research-paper-lifecycle-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "检索、写作、投稿、返修和报告技能集合",
+      "source_url": "https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills",
+      "tags": [
+        "投稿",
+        "返修",
+        "匿名检查"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-087",
+      "name": "research-session-flow",
+      "type": "Skill",
+      "category": "知识协作",
+      "description": "科研项目 init/update/status/archive/handoff/log；输出项目状态/交接/日志。",
+      "source_url": "https://github.com/whwangovo/research-session-flow",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-115",
+      "name": "revfactory/harness",
+      "type": "Skill",
+      "category": "知识协作",
+      "description": "为某个研究方向自动设计 agent 团队、角色分工、交接协议和专用 skills。",
+      "source_url": "https://github.com/revfactory/harness",
+      "tags": [
+        "科研项目管理",
+        "多智能体",
+        "工作流工程"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-058",
+      "name": "rstudio-reviewer",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "RStudio 代码审查、模型设定、可复现性；输出审查报告/修复建议。",
+      "source_url": "https://github.com/enrico1c/rstudio-reviewer",
+      "tags": [
+        "应用经济学",
+        "应用统计",
+        "统计学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-089",
+      "name": "sci-figure-workflow",
+      "type": "Skill",
+      "category": "图表展示",
+      "description": "GPT-image/Gemini/Nano Banana/draw.io 科研绘图 4 步；输出drawio/pptx/svg。",
+      "source_url": "https://github.com/james20141606/sci-figure-workflow",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-214",
+      "name": "sem-guide",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "sem-guide skill 指导用 R lavaan / Python semopy 构建、估计和解释结构方程模型。",
+      "source_url": "https://skillsauth.com/skills/wentorai/sem-guide",
+      "tags": [
+        "SEM",
+        "lavaan",
+        "semopy"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-047",
+      "name": "skill_lammps",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "编写和验证 LAMMPS input script；输出input script/验证报告。",
+      "source_url": "https://github.com/Chenghao-Wu/skill_lammps",
+      "tags": [
+        "材料科学与工程",
+        "化学",
+        "物理学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-054",
+      "name": "stata-graphics-skill",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "Stata 期刊级作图；输出Stata 图表代码/图形。",
+      "source_url": "https://github.com/YoungFujun/stata-graphics-skill",
+      "tags": [
+        "应用经济学",
+        "应用统计",
+        "统计学"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-053",
+      "name": "stata-skill",
+      "type": "Skill",
+      "category": "数据分析",
+      "description": "Stata 正确代码、数据管理、计量、因果推断、作图；输出do-file/模型/图表。",
+      "source_url": "https://github.com/dylantmoore/stata-skill",
+      "tags": [
+        "理论经济学",
+        "应用经济学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-228",
+      "name": "summarize-meeting",
+      "type": "Skill",
+      "category": "知识协作",
+      "description": "summarize-meeting skill 把会议转写/记录整理成摘要、行动项、决策和后续任务，支持 Codex/Claude Code。",
+      "source_url": "https://smithery.ai/skills/braselog/summarize-meeting",
+      "tags": [
+        "meeting summary",
+        "lab meeting",
+        "组会纪要"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "SUP-RESEARCH-019",
+      "name": "texra-scientific-skills",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "科学写作、审稿与科研图工作流",
+      "source_url": "https://github.com/texra-ai/texra-scientific-skills",
+      "tags": [
+        "数学公式",
+        "TikZ",
+        "论文审查"
+      ],
+      "catalog_record_date": "2026-09-11",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-017",
+      "name": "thesis-creator",
+      "type": "Skill",
+      "category": "论文读写",
+      "description": "论文生成、ER 图、流程图、降重；输出论文/ER图/流程图。",
+      "source_url": "https://github.com/Stars-OC/thesis-creator",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-074",
+      "name": "us-crop-monitor-skill",
+      "type": "Skill",
+      "category": "通用科研",
+      "description": "USDA NASS / 作物监测；输出作物简报/监测报告。",
+      "source_url": "https://github.com/FrancyJGLisboa/us-crop-monitor-skill",
+      "tags": [
+        "农业",
+        "作物学",
+        "农林经济管理"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-227",
+      "name": "weekly-report",
+      "type": "Skill",
+      "category": "知识协作",
+      "description": "weekly-report skill 把本周成果、进行中任务、阻塞和下周计划整理成结构化周报。",
+      "source_url": "https://explainx.ai/skills/claude-office-skills/skills/weekly-report",
+      "tags": [
+        "weekly report",
+        "科研周报",
+        "课题组汇报"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-118",
+      "name": "yy/claude-scholar",
+      "type": "Skill",
+      "category": "文献研究",
+      "description": "提供文献元数据、引用检查、LaTeX 清理、数学推导验证和 arXiv 投稿准备等学术小工具。",
+      "source_url": "https://github.com/yy/claude-scholar",
+      "tags": [
+        "OpenAlex",
+        "arXiv",
+        "BibTeX"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "skills",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-109",
+      "name": "claude-academic-research",
+      "type": "MCP",
+      "category": "专业软件",
+      "description": "帮研究生用 MCP 做可信引用、Zotero 操作和论文多视角修订。",
+      "source_url": "https://github.com/mronkko/claude-academic-research",
+      "tags": [
+        "通用科研方法",
+        "学术写作",
+        "文献管理"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-179",
+      "name": "contextmanager",
+      "type": "MCP",
+      "category": "数据分析",
+      "description": "ContextManager 提供 qualitative、quantitative、student、project 等领域 MCP server，用知识图谱管理研究上下文。",
+      "source_url": "https://github.com/tejpalvirk/contextmanager",
+      "tags": [
+        "质性研究",
+        "访谈",
+        "参与者"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-044",
+      "name": "SIGMA-template",
+      "type": "插件",
+      "category": "专业软件",
+      "description": "Simulator-Interface Grounding Adapter 模板，例 GEOS/OpenFOAM；输出仿真器适配模板。",
+      "source_url": "https://github.com/brianzliu/SIGMA-template",
+      "tags": [
+        "力学",
+        "机械工程",
+        "材料科学与工程"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-057",
+      "name": "claude-academic-setup",
+      "type": "工作流",
+      "category": "数据分析",
+      "description": "R/Stata/Python academic setup；输出skills/plugins/commands 配置。",
+      "source_url": "https://github.com/letitbk/claude-academic-setup",
+      "tags": [
+        "理论经济学",
+        "应用经济学",
+        "应用统计"
+      ],
+      "catalog_record_date": "2026-05-22",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-183",
+      "name": "mcpserver-finder",
+      "type": "工具",
+      "category": "通用科研",
+      "description": "mcpserver-finder 专门帮助发现和评估 MCP servers，带质量、安全、实用性判断。",
+      "source_url": "https://github.com/ModelContextProtocol-Security/mcpserver-finder",
+      "tags": [
+        "MCP discovery",
+        "MCP safety",
+        "server quality"
+      ],
+      "catalog_record_date": "2026-05-23",
+      "section": "tools",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-006",
+      "name": "Galaxy-Dawn/claude-scholar",
+      "original_type": "workspace",
+      "category": "通用科研",
+      "description": "半自动科研助手：构思、代码、实验、写作、发表；输出项目工作区/实验/论文。",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-018",
+      "name": "aigc-reduce",
+      "original_type": "skill",
+      "category": "论文合规",
+      "description": "降低 AIGC 检测率/去 AI 痕迹；输出改写文本。",
+      "source_url": "https://github.com/xiaofenggan01/aigc-reduce",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "prompt-only",
+      "section": "review",
+      "exclusion_reasons": [
+        "execution-level"
+      ],
+      "type": "skill",
+      "record_kind": "candidate"
+    },
+    {
+      "id": "GASK-042",
+      "name": "claude-code-openfoam",
+      "original_type": "workflow",
+      "category": "仿真建模",
+      "description": "OpenFOAM with Claude Code；输出case 文件/仿真结果。",
+      "source_url": "https://github.com/notforgetwyn/claude-code-openfoam",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "candidate",
+      "section": "review",
+      "exclusion_reasons": [
+        "execution-level"
+      ],
+      "type": "workflow",
+      "record_kind": "candidate"
+    },
+    {
+      "id": "GASK-059",
+      "name": "replication-folder-template",
+      "original_type": "template",
+      "category": "社科/经管",
+      "description": "AEA/QJE/RES/EJ 复现包模板；输出标准化复现包。",
+      "source_url": "https://github.com/ozak/replication-folder-template",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "templates",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "template",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-065",
+      "name": "MedgeClaw",
+      "original_type": "workspace",
+      "category": "医学/生信",
+      "description": "对话驱动 RNA-seq、药物发现、临床分析；输出分析结果/看板/报告。",
+      "source_url": "https://github.com/xjtulyc/MedgeClaw",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-067",
+      "name": "ClawBio",
+      "original_type": "workspace",
+      "category": "医学/生信",
+      "description": "本地优先、可复现的生信 skill library；输出workflow/报告/数据产物。",
+      "source_url": "https://github.com/clawbio/ClawBio",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-077",
+      "name": "Agent-Reach",
+      "original_type": "tool",
+      "category": "中文社媒/发现",
+      "description": "agent 读取 Twitter/Reddit/YouTube/GitHub/B站/小红书；输出搜索结果/文本/视频转写。",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "tool",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-078",
+      "name": "xiaohongshu-mcp",
+      "original_type": "mcp",
+      "category": "中文社媒/发现",
+      "description": "小红书 MCP；输出小红书内容/搜索/交互。",
+      "source_url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-079",
+      "name": "RedNote-MCP",
+      "original_type": "mcp",
+      "category": "中文社媒/发现",
+      "description": "RedNote/XHS MCP server；输出小红书内容。",
+      "source_url": "https://github.com/iFurySt/RedNote-MCP",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-080",
+      "name": "xhs-claude-skills",
+      "original_type": "skill",
+      "category": "中文社媒/知识库",
+      "description": "提取小红书帖子到 Obsidian notes；输出Markdown 笔记。",
+      "source_url": "https://github.com/chenxiachan/xhs-claude-skills",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-081",
+      "name": "xiaohongshu-mcp-skills",
+      "original_type": "skill",
+      "category": "中文社媒/发布",
+      "description": "小红书 MCP skills；输出小红书工作流。",
+      "source_url": "https://github.com/autoclaw-cc/xiaohongshu-mcp-skills",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-082",
+      "name": "wechat-query-skill",
+      "original_type": "skill",
+      "category": "中文社媒/发现",
+      "description": "公众号订阅、查询、推送、巡检；输出文章列表/推送/查询结果。",
+      "source_url": "https://github.com/adennng/wechat-query-skill",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-083",
+      "name": "wechat-article-formatter-skill",
+      "original_type": "skill",
+      "category": "中文社媒/发布",
+      "description": "微信公众号文章排版；输出公众号排版 HTML/Markdown。",
+      "source_url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-084",
+      "name": "content-pipeline",
+      "original_type": "skill",
+      "category": "中文社媒/发布",
+      "description": "一条 prompt 到多平台发布；输出多平台内容包。",
+      "source_url": "https://github.com/OrangeViolin/content-pipeline",
+      "catalog_record_date": "2026-05-22",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-112",
+      "name": "text-to-cae",
+      "original_type": "workspace+mcp",
+      "category": "仿真建模",
+      "description": "帮有限元研究生从文字需求生成/修改 Abaqus 脚本，运行 CAE，并在浏览器查看网格、云图、参数和结果。",
+      "source_url": "https://github.com/Cai-aa/text-to-cae",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-114",
+      "name": "Claw-AI-Lab",
+      "original_type": "workspace+harness",
+      "category": "通用科研",
+      "description": "把一个研究题目拆成多 agent 协作的虚拟实验室，并通过网页面板跟踪代码、实验、图表和论文产物。",
+      "source_url": "https://github.com/Claw-AI-Lab/Claw-AI-Lab",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+harness",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-117",
+      "name": "claude-research",
+      "original_type": "workspace+skill",
+      "category": "通用科研",
+      "description": "一键安装面向 PhD 的 Claude Code 学术工作流：skills、agents、hooks、rules 都配好。",
+      "source_url": "https://github.com/flonat/claude-research",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-120",
+      "name": "AlterLab-Academic-Skills",
+      "original_type": "directory+skill",
+      "category": "通用科研",
+      "description": "186+ 学术技能包，覆盖数据库、领域方法、发表、教学、实验室平台和文档处理。",
+      "source_url": "https://github.com/AlterLab-IEU/AlterLab-Academic-Skills",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "prompt-only",
+      "section": "review",
+      "exclusion_reasons": [
+        "execution-level",
+        "resource-kind"
+      ],
+      "type": "directory+skill",
+      "record_kind": "candidate"
+    },
+    {
+      "id": "GASK-123",
+      "name": "claude-code-my-workflow",
+      "original_type": "workspace",
+      "category": "通用科研",
+      "description": "可 fork 的 Claude Code 学术项目模板，内置多 agent 审阅、质量门、LaTeX/Beamer/R/Quarto 工作流。",
+      "source_url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-143",
+      "name": "llm-for-zotero",
+      "original_type": "workspace+mcp",
+      "category": "文献管理",
+      "description": "把 Codex/Claude Code 接到 Zotero 文献库，作为“扎根本地文献库”的研究 agent。",
+      "source_url": "https://github.com/yilewang/llm-for-zotero",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-146",
+      "name": "x-research-skill",
+      "original_type": "skill",
+      "category": "中文社媒/发现",
+      "description": "X/Twitter research agent skill，让 Claude Code/OpenClaw 从终端搜索推文、抓线程、监控账号并生成有来源的研究记录。",
+      "source_url": "https://github.com/rohunvora/x-research-skill",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-147",
+      "name": "Autosearch",
+      "original_type": "skill+cli",
+      "category": "中文社媒/发现",
+      "description": "AutoSearch 是多渠道自动研究工具：多搜索渠道，自演化 query，输出带引用报告。",
+      "source_url": "https://github.com/0xmariowu/Autosearch",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill+cli",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-148",
+      "name": "baoyu-skills",
+      "original_type": "plugin+skill",
+      "category": "图表/PPT",
+      "description": "宝玉的 Claude Code 技能集，覆盖图文生成、网页抓取、幻灯片、公众号/小红书/微博发布和内容处理。",
+      "source_url": "https://github.com/JimLiu/baoyu-skills",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "social-keyword"
+      ],
+      "type": "plugin+skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-152",
+      "name": "MatClaw",
+      "original_type": "workspace+skill+mcp",
+      "category": "仿真建模",
+      "description": "MatClaw 是材料科学 agent，能把自然语言任务转成 DFT/LAMMPS/RASPA3/MLIP 等可复现模拟流程。",
+      "source_url": "https://github.com/DingyangLyu/MatClaw",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+skill+mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-180",
+      "name": "xhs-cli",
+      "original_type": "skill+cli",
+      "category": "中文社媒/发现",
+      "description": "xhs-cli 自带 SKILL.md，让 agent 通过真实浏览器搜索/阅读/互动小红书内容。",
+      "source_url": "https://github.com/jackwener/xhs-cli",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill+cli",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-181",
+      "name": "redbook",
+      "original_type": "skill+cli",
+      "category": "中文社媒/发现",
+      "description": "redbook 是面向 AI agents 的小红书 CLI/API，支持搜索笔记、读笔记、用户主页和爆文分析。",
+      "source_url": "https://github.com/lucasygu/redbook",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category",
+        "social-keyword"
+      ],
+      "type": "skill+cli",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-191",
+      "name": "Biomni",
+      "original_type": "workspace+agent+mcp",
+      "category": "医学/生信",
+      "description": "Biomni 是通用生物医学 AI agent，集成大量生物医学工具，并支持添加 MCP servers 做外部工具调用。",
+      "source_url": "https://github.com/snap-stanford/Biomni",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+agent+mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-196",
+      "name": "agentic-data-scientist",
+      "original_type": "workspace+agent+mcp",
+      "category": "数据分析",
+      "description": "Agentic Data Scientist 是端到端数据科学 agent，支持 MCP 集成和 Claude Scientific Skills，用计划-执行-验证循环做分析。",
+      "source_url": "https://github.com/K-Dense-AI/agentic-data-scientist",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "workspaces",
+      "exclusion_reasons": [
+        "resource-kind"
+      ],
+      "type": "workspace+agent+mcp",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-239",
+      "name": "@cyanheads/openalex-mcp-server",
+      "original_type": "mcp",
+      "category": "文献检索",
+      "description": "OpenAlex MCP 把 2.7 亿级开放学术目录接给 agent，用于文献发现和引用分析。",
+      "source_url": "https://www.npmjs.com/package/@cyanheads/openalex-mcp-server",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "review",
+      "exclusion_reasons": [
+        "blocked-name"
+      ],
+      "type": "mcp",
+      "record_kind": "candidate"
+    },
+    {
+      "id": "GASK-249",
+      "name": "@modelcontextprotocol/server-pdf",
+      "original_type": "mcp",
+      "category": "文档/PDF解析",
+      "description": "官方 PDF MCP 用于加载 PDF、分页抽取文本并配合查看器定位。",
+      "source_url": "https://www.npmjs.com/package/@modelcontextprotocol/server-pdf",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "review",
+      "exclusion_reasons": [
+        "blocked-name"
+      ],
+      "type": "mcp",
+      "record_kind": "candidate"
+    },
+    {
+      "id": "GASK-276",
+      "name": "frontend-design",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "官方 frontend-design skill 让 Claude/Codex 类 agent 生成更有设计感的生产级网页 UI。",
+      "source_url": "https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-277",
+      "name": "frontend-ui-design",
+      "original_type": "skill+directory",
+      "category": "前端/UI设计",
+      "description": "frontend-ui-design skill 用于设计或实现生产级 UI 组件和屏幕。",
+      "source_url": "https://claudskills.com/skills/frontend-ui-frontend-ui-design/",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "resource-kind",
+        "adjacent-category"
+      ],
+      "type": "skill+directory",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-278",
+      "name": "LibreUIUX-Claude-Code",
+      "original_type": "skill+agents+workflow",
+      "category": "前端/UI设计",
+      "description": "LibreUIUX-Claude-Code 是一整套 Claude Code UI/UX skills、agents 和 workflows。",
+      "source_url": "https://github.com/HermeticOrmus/LibreUIUX-Claude-Code",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill+agents+workflow",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-279",
+      "name": "frontend-ui",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "frontend-ui skill 用研究型提示策略生成更有辨识度的网页 UI。",
+      "source_url": "https://github.com/WomenDefiningAI/claude-code-skills/tree/main/skills/frontend-ui",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-280",
+      "name": "codex-design-skill / ui-design",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "codex-design-skill 的 ui-design 帮 Codex 直接设计并实现前端 UI。",
+      "source_url": "https://github.com/hursh-shah/codex-design-skill",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-281",
+      "name": "MiniMax frontend-dev",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "MiniMax frontend-dev skill 结合高级 UI、动画和 AI 生成媒体资产做前端页面。",
+      "source_url": "https://github.com/MiniMax-AI/skills",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-282",
+      "name": "frontend-design-audit",
+      "original_type": "skill+plugin",
+      "category": "前端/UI设计",
+      "description": "frontend-design-audit 用 15 条可用性原则审计 UI，并可辅助修复代码。",
+      "source_url": "https://github.com/mistyhx/frontend-design-audit",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill+plugin",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-283",
+      "name": "ui-mockups",
+      "original_type": "skill+cli",
+      "category": "前端/UI设计",
+      "description": "ui-mockups skill/CLI 用图像模型做 UI 设计构思和高保真屏幕 mockup。",
+      "source_url": "https://github.com/jonathanwmaddison/ui-mockups",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "real-execution",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill+cli",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-284",
+      "name": "ios-ux-prototype",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "ios-ux-prototype skill 生成交互式 iOS App 原型和组件参考。",
+      "source_url": "https://github.com/tddworks/claude-skills/tree/main/skills/ios-ux-prototype",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-285",
+      "name": "pacifio/ui",
+      "original_type": "skill",
+      "category": "前端/UI设计",
+      "description": "pacifio/ui 是个人设计系统 skill，提供紧凑、现代的 UI 风格规则。",
+      "source_url": "https://github.com/pacifio/ui",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "adjacent-category"
+      ],
+      "type": "skill",
+      "record_kind": "resource"
+    },
+    {
+      "id": "GASK-286",
+      "name": "interface-design",
+      "original_type": "skill+directory",
+      "category": "前端/UI设计",
+      "description": "interface-design skill 面向企业软件、SaaS dashboard 和 admin 界面。",
+      "source_url": "https://www.sourcepulse.org/projects/22108831",
+      "catalog_record_date": "2026-05-23",
+      "status": "collected",
+      "execution_level": "guided-workflow",
+      "section": "related",
+      "exclusion_reasons": [
+        "resource-kind",
+        "adjacent-category"
+      ],
+      "type": "skill+directory",
+      "record_kind": "resource"
+    }
+  ]
+}
