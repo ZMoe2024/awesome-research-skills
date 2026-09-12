@@ -148,6 +148,8 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 ## 征集：把你做过、用过的好工具分享出来
 
+[![优秀科研工具征集：好用的科研工具，一起分享出来。科研技能、MCP、软件、插件、脚本，欢迎推荐与自荐](assets/contribute-research-tools.png)](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=add-resource.yml)
+
 你有没有做过一个能省下重复劳动的科研工具，或用过一个想推荐给同行的项目？欢迎来这里分享。
 
 **科研 AI 技能（Skill）、工具连接服务（MCP）、桌面软件、在线工具、插件、脚本和工作流，都欢迎。** 查文献、读论文、分析数据、画科研图、准备汇报、操作专业软件，只要能解决一个具体问题，就值得介绍。

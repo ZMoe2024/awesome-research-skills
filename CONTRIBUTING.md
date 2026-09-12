@@ -1,5 +1,7 @@
 # 贡献指南
 
+[![优秀科研工具征集：好用的科研工具，一起分享出来。欢迎推荐与自荐](assets/contribute-research-tools.png)](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=add-resource.yml)
+
 ## 一起把好用的科研工具分享出来
 
 如果你做过一个解决科研问题的小工具，或者用过一个值得推荐给同行的项目，欢迎投稿。作者可以自荐，使用者也可以推荐别人的作品。
