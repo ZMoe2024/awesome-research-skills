@@ -1,21 +1,46 @@
-name: 教程选题
-description: 提出想看的科研工具教程，或提供可公开的实践记录
+name: 教程投稿与选题
+description: 投稿原创教程、推荐优秀教程、分享实操记录，或提出想看的选题
 title: '[教程] '
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 把科研经验，写成一篇好教程
+        欢迎图文、视频、代码笔记、软件操作指南和实操经验，覆盖科研 Skill、MCP、软件及具体研究任务。
+        可以投稿自己的内容，也可以推荐别人的教程。请注明作者和原文来源；还没写成教程的操作记录也欢迎。
+  - type: dropdown
+    id: submission_kind
+    attributes:
+      label: 这次想分享什么？
+      options:
+        - 投稿自己写的教程
+        - 推荐别人的优秀教程
+        - 分享一次实操记录
+        - 提出想看的教程选题
   - type: textarea
     id: task
     attributes:
-      label: 想完成什么科研任务？
-      description: 说明手头的材料和希望得到的结果。
+      label: 教程主题与适合的读者
+      description: 介绍教程解决什么问题、能得到什么结果；提选题时说明想学什么即可。
     validations:
       required: true
+  - type: input
+    id: source
+    attributes:
+      label: 教程链接与作者
+      description: 有已发布内容请附原文链接和作者；还没有链接，可以在下面直接写正文。
+  - type: textarea
+    id: tutorial_content
+    attributes:
+      label: 教程正文、摘要或操作记录
+      description: 可介绍主要步骤、结果和排错经验，支持图文、视频链接和代码笔记。提选题时可留空。
   - type: textarea
     id: environment
     attributes:
-      label: 使用环境与卡住的步骤
-      description: 例如操作系统、AI 客户端、工具名称，以及已经尝试到哪一步。
+      label: 使用环境与实际验证范围
+      description: 选填。说明工具、版本、系统，哪些步骤已跑通、哪些还没验证；提选题时可说明卡在哪里。
     validations:
-      required: true
+      required: false
   - type: textarea
     id: example
     attributes:

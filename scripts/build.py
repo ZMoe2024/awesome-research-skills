@@ -192,11 +192,17 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 {topic_links}
 
-## 教程计划
+## 教程征集与计划
 
-[![科研工具教程计划：找文献、读论文、做分析、做汇报](assets/tutorial-roadmap.png)](TUTORIALS.md)
+[![科研实用教程征集：把科研经验，写成一篇好教程。图文、视频、代码笔记、实操记录，欢迎分享和推荐](assets/contribute-tutorials.png)](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)
 
-围绕一个真实科研任务，准备样本、运行步骤、结果文件和检查方法。已有指南与案例可以直接阅读，新教程按下面的顺序准备。
+**你跑通过的方法、踩过的坑，也能帮后来的人少走弯路。** 欢迎投稿原创教程、推荐优秀教程，或分享一次完整的科研工具实操。图文、视频、代码笔记（Notebook）、软件上手指南都可以，围绕 Skill、MCP、科研软件或具体研究任务展开。
+
+介绍教程讲什么、适合谁，再附上正文或原文链接即可。如果有样本、步骤、结果和排错记录，也欢迎一起分享。我们会核对来源与内容，保留作者署名和原文链接；未验证的步骤会如实说明。
+
+**[投稿／推荐一篇教程](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)** · [提出想看的选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml) · [查看教程征集说明与计划](TUTORIALS.md)
+
+已有指南与案例可以直接阅读，后续教程按下面的顺序准备，也欢迎参与共建。
 
 | 内容 | 状态 | 入口或目标 |
 | --- | --- | --- |
@@ -207,7 +213,7 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 | 组会汇报与科研图 | 计划中 | 从论文和提纲制作可编辑图与幻灯片 |
 | 数据分析与结果复现 | 计划中 | 从样本数据生成结果表、图和可重复运行的记录 |
 
-[查看完整教程计划、已有内容与选题方式](TUTORIALS.md)。计划中的教程尚未发布，完成样本运行和结果核对后再提供正文入口。
+[查看完整教程计划、已有内容与投稿方式](TUTORIALS.md)。计划中的教程尚未发布，完成样本运行和结果核对后再提供正文入口。
 
 ## 让 AI 帮你挑
 

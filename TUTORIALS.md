@@ -1,10 +1,24 @@
-# 科研工具教程计划
+# 科研教程征集与计划
 
-[![科研工具教程计划：从一个问题，到一份可检查的结果。找文献、读论文、做分析、做汇报](assets/tutorial-roadmap.png)](https://skill.createsci.com/)
+[![科研实用教程征集：把科研经验，写成一篇好教程。欢迎分享教程、推荐好教程](assets/contribute-tutorials.png)](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)
 
 [在线网站](https://skill.createsci.com/) · [使用指南](https://skill.createsci.com/guides) · [实践案例](https://skill.createsci.com/cases) · [返回项目首页](README.md)
 
 希望每篇教程都能帮你完成一个具体任务：准备什么材料、选择哪个工具、怎样开始、最后得到什么，以及怎么判断结果是否正确。
+
+## 把你的科研经验分享出来
+
+你是不是已经跑通了一个工具、解决过一次配置问题，或整理过一套实验与分析流程？欢迎把经验写成教程，帮助遇到同样问题的人。
+
+**原创投稿、优秀教程推荐、实操记录和选题建议，都欢迎。** 图文教程、视频、代码笔记（Notebook）、软件操作指南、常见问题与排错经验都可以。内容可以围绕科研 Skill、MCP、软件、插件或具体的研究任务展开。
+
+**[投稿／推荐教程，或提出选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)**
+
+投稿时介绍教程的主题和适合的读者，附上原文链接或直接写正文即可。推荐别人的教程请注明作者和来源。还没有完整文章，也可以先分享一份实际操作记录，再逐步补齐。
+
+如果方便，请附上使用环境、公开样本、关键步骤、结果和检查方法。有一段可照着完成的操作过程，通常比单纯介绍工具功能更有帮助。
+
+我们会核对来源、内容和可复现条件，保留作者署名与原文链接。推荐他人教程以链接介绍为主；转载或改编需遵循原作者许可。投稿不表示自动收录，未实测或不完整的部分会明确标注。
 
 ## 现在可以看
 
@@ -21,6 +35,8 @@
 三个专题提供任务路线与选型建议，可在准备具体教程前先阅读：[论文 PDF](topics/paper-pdf.md)、[组会汇报](topics/lab-meeting.md)、[数据分析](topics/research-data.md)。
 
 ## 接下来准备
+
+[![科研工具教程路线：找文献、读论文、做分析、做汇报](assets/tutorial-roadmap.png)](https://skill.createsci.com/)
 
 下表是计划顺序，不是已经完成的教程，也不承诺固定发布日期。正式发布时会补上实际使用的工具、环境、结果文件和正文链接。
 
@@ -45,6 +61,6 @@
 
 ## 想先看哪个
 
-可以在 GitHub 的「教程选题」Issue 中提出需求，或为已有同题 Issue 点赞。写清楚你手头的材料、正在使用的工具、卡住的步骤和希望得到的结果，便于确定先做哪篇。
+可以在 GitHub 的[「教程投稿与选题」表单](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)中提出需求，或为已有同题 Issue 点赞。写清楚你手头的材料、正在使用的工具、卡住的步骤和希望得到的结果，便于确定先做哪篇。
 
 也欢迎提交自己的运行记录。涉及个人数据的材料请先整理成可公开的样本；第三方素材应注明来源与使用条件。
