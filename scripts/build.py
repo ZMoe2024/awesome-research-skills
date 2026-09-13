@@ -144,7 +144,7 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 这里收录能帮助 AI 完成任务的技能、连接外部软件的服务，以及可以直接使用的科研工具，覆盖查文献、读论文、分析数据、制作科研图和操作专业软件。先按任务找到工具，再按原作者文档使用。
 
-[访问网站](https://skill.createsci.com/) · [使用指南](https://skill.createsci.com/guides) · [实践案例](https://skill.createsci.com/cases) · [教程计划](TUTORIALS.md) · [贡献资源](CONTRIBUTING.md)
+[访问网站](https://skill.createsci.com/) · [使用指南](https://skill.createsci.com/guides) · [实践案例](https://skill.createsci.com/cases) · [教程目录](TUTORIALS.md) · [教程计划](TUTORIAL-PLAN.md) · [贡献资源](CONTRIBUTING.md)
 
 ## 征集：把你做过、用过的好工具分享出来
 
@@ -192,6 +192,12 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 {topic_links}
 
+## 教程目录
+
+**[查看科研教程与文章目录](TUTORIALS.md)** · [网站搜索与筛选](https://skill.createsci.com/tutorials)
+
+图文、视频、课程、代码、文档和研究经验按主题集中列出；不按质量排名，付费或访问限制分别标注。
+
 ## 教程征集与计划
 
 [![科研实用教程征集：把科研经验，写成一篇好教程。图文、视频、代码笔记、实操记录，欢迎分享和推荐](assets/contribute-tutorials.png)](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)
@@ -200,7 +206,7 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 
 介绍教程讲什么、适合谁，再附上正文或原文链接即可。如果有样本、步骤、结果和排错记录，也欢迎一起分享。我们会核对来源与内容，保留作者署名和原文链接；未验证的步骤会如实说明。
 
-**[投稿／推荐一篇教程](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)** · [提出想看的选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml) · [查看教程征集说明与计划](TUTORIALS.md)
+**[投稿／推荐一篇教程](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)** · [提出想看的选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml) · [查看教程征集说明与计划](TUTORIAL-PLAN.md)
 
 已有指南与案例可以直接阅读，后续教程按下面的顺序准备，也欢迎参与共建。
 
@@ -213,7 +219,7 @@ Awesome Research Skills · 按科研任务整理的工具清单与使用方法
 | 组会汇报与科研图 | 计划中 | 从论文和提纲制作可编辑图与幻灯片 |
 | 数据分析与结果复现 | 计划中 | 从样本数据生成结果表、图和可重复运行的记录 |
 
-[查看完整教程计划、已有内容与投稿方式](TUTORIALS.md)。计划中的教程尚未发布，完成样本运行和结果核对后再提供正文入口。
+[查看完整教程计划、已有内容与投稿方式](TUTORIAL-PLAN.md)。计划中的教程尚未发布，完成样本运行和结果核对后再提供正文入口。
 
 ## 让 AI 帮你挑
 
