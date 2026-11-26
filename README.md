@@ -52,19 +52,19 @@
 
 **[推荐／自荐一个工具](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=add-resource.yml)** · [查看投稿说明](CONTRIBUTING.md) · [分享教程选题](https://github.com/ZMoe2024/awesome-research-skills/issues/new?template=tutorial.yml)
 
-**[查看资源清单](lists/all.md)**：311 项资源，另有 5 条候选与待核验记录。按具体项目或工具条目整理，用途与可用性以原项目文档为准。
+**[查看资源清单](lists/all.md)**：313 项资源，另有 5 条候选与待核验记录。按具体项目或工具条目整理，用途与可用性以原项目文档为准。
 
 ## 全部目录
 
-- [AI 技能清单（Skill）](#skills)：106 项，含同时提供工具连接的项目。
+- [AI 技能清单（Skill）](#skills)：107 项，含同时提供工具连接的项目。
 - [工具连接服务（MCP）](lists/mcp.md)：132 项。
-- [其他科研工具](lists/tools.md)：37 项。
+- [其他科研工具](lists/tools.md)：38 项。
 - [科研工作台与智能助手](lists/workspaces.md)：11 条。
 - [研究模板](lists/templates.md)：1 条。
 - [设计、传播与其他延伸工具](lists/related.md)：24 条。
 - [候选与待核验记录](lists/review.md)：5 条。
 
-前三份清单对应网站展示的 275 项，并补充科研工作台、研究模板和延伸工具。不同分组不重复计数。
+前三份清单合计 277 项。科研工作台、研究模板和延伸工具单独列出，各组互不重复。
 
 ## 从这里开始
 
@@ -154,7 +154,7 @@
 - [zotero-obsidian-skill](https://github.com/WindZh03/zotero-obsidian-skill) — 读取 Zotero 分类论文，写入 Obsidian notes；输出Markdown 笔记。 `[AI 技能（Skill）]`
 
 <a id="writing"></a>
-### 论文读写（20）
+### 论文读写（21）
 
 - [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) — 论文规划与写作框架；输出论文大纲/章节草稿/检查点。 `[AI 技能（Skill）]`
 - [Academic-Paper-Skills](https://github.com/DELONG-L/Academic-Paper-Skills) — 论文写作、图表和审查工作流 `[AI 技能（Skill）]`
@@ -166,6 +166,7 @@
 - [consensus-research-skill](https://github.com/Drignacioalcala/consensus-research-skill) — 帮研究生把证据检索变成综述草稿、阅读清单和 Word 输出。 `[AI 技能 + 工具连接（Skill + MCP）]`
 - [dailypaper-skills](https://github.com/huangkiki/dailypaper-skills) — 论文流水线、日更论文、读写一体；输出论文笔记/日报/流水线文件。 `[AI 技能（Skill）]`
 - [DeepPaperNote](https://github.com/917Dhj/DeepPaperNote) — 单篇论文深读并生成 Obsidian 笔记；输出深度论文笔记。 `[AI 技能（Skill）]`
+- [Doc2X MCP](https://github.com/NoEdgeAI/doc2x-mcp) — 通过官方 Skill 调用 MCP，解析含公式和表格的论文 PDF、扫描件或图片。PDF 可导出 Markdown、LaTeX、DOCX 或 PDF v3 版面 JSON。需 Node.js 18+、MCP 客户端和 Doc2X API Key，云端解析按用量计费。 `[AI 技能 + 工具连接（Skill + MCP）]`
 - [latex-arxiv-SKILL](https://github.com/appautomaton/latex-arxiv-SKILL) — LaTeX论文流程与BibTeX引用核验 `[AI 技能（Skill）]`
 - [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) — Nature 投稿全流程：初稿、引用、Data Availability、返修；输出投稿检查/回复信/修订稿。 `[AI 技能（Skill）]`
 - [nature-skills](https://github.com/Yuan1z0825/nature-skills) — Nature 风格写作、润色、读论文、绘图、返修；输出润色文本/图表/PPT/回复信。 `[AI 技能（Skill）]`
@@ -273,8 +274,8 @@
 ## 更多科研工具
 
 - [工具连接服务（MCP）](lists/mcp.md)：132 项；兼有 AI 技能的项目已归入上面的技能清单。
-- [其他工具清单](lists/tools.md)：37 项软件、CLI、工具包、插件和工作流。
-- [资源总表](lists/all.md)：311 项资源与 5 条待核验记录。
+- [其他工具清单](lists/tools.md)：38 项软件、CLI、工具包、插件和工作流。
+- [资源总表](lists/all.md)：313 项资源与 5 条待核验记录。
 - [完整 JSON 数据](data/full-catalog.json)：保留稳定 ID 与分组状态，方便检索、同步和二次整理。
 
 ## 收录与更新

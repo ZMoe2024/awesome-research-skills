@@ -3850,6 +3850,38 @@
         "server quality"
       ],
       "catalog_record_date": "2026-05-23"
+    },
+    {
+      "id": "COMM-doc2x-mcp",
+      "name": "Doc2X MCP",
+      "type": "Skill + MCP",
+      "category": "论文读写",
+      "description": "通过官方 Skill 调用 MCP，解析含公式和表格的论文 PDF、扫描件或图片。PDF 可导出 Markdown、LaTeX、DOCX 或 PDF v3 版面 JSON。需 Node.js 18+、MCP 客户端和 Doc2X API Key，云端解析按用量计费。",
+      "source_url": "https://github.com/NoEdgeAI/doc2x-mcp",
+      "tags": [
+        "PDF 解析",
+        "OCR",
+        "公式识别",
+        "表格识别",
+        "版面分析"
+      ],
+      "catalog_record_date": null
+    },
+    {
+      "id": "COMM-journalcompass",
+      "name": "JournalCompass（期刊罗盘）",
+      "type": "工具",
+      "category": "论文读写",
+      "description": "免登录按刊名或 ISSN 查询期刊，并按分区、影响因子、审稿周期、版面费（APC）和开放获取（OA）筛选。选刊助手可根据摘要或 PDF 生成候选期刊清单。",
+      "source_url": "https://journalcompass.com/",
+      "tags": [
+        "期刊查询",
+        "选刊",
+        "期刊分区",
+        "审稿周期",
+        "版面费"
+      ],
+      "catalog_record_date": null
     }
   ]
 }
