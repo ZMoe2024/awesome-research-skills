@@ -2,11 +2,12 @@
 
 [返回首页](../README.md) · [数据与核对说明](../DATA.md)
 
-311 项资源，另有 5 条候选与待核验记录。
+313 项资源，另有 5 条候选与待核验记录。
 
 用途与类型沿用收录信息，未逐项重新实测；候选和原站排除项保留状态说明。
 
-## 原站展示资源
+<a id="原站展示资源"></a>
+## 科研工具与技能
 
 <a id="literature"></a>
 ### 文献研究（52）
@@ -65,7 +66,7 @@
 - [zotpilot](https://github.com/xunhe730/zotpilot) — Zotero MCP + agent skill；输出Zotero 查询/笔记/管理。 `[工具连接服务（MCP）]`
 
 <a id="writing"></a>
-### 论文读写（24）
+### 论文读写（26）
 
 - [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) — 论文规划与写作框架；输出论文大纲/章节草稿/检查点。 `[AI 技能（Skill）]`
 - [Academic-Paper-Skills](https://github.com/DELONG-L/Academic-Paper-Skills) — 论文写作、图表和审查工作流 `[AI 技能（Skill）]`
@@ -78,6 +79,8 @@
 - [consensus-research-skill](https://github.com/Drignacioalcala/consensus-research-skill) — 帮研究生把证据检索变成综述草稿、阅读清单和 Word 输出。 `[AI 技能 + 工具连接（Skill + MCP）]`
 - [dailypaper-skills](https://github.com/huangkiki/dailypaper-skills) — 论文流水线、日更论文、读写一体；输出论文笔记/日报/流水线文件。 `[AI 技能（Skill）]`
 - [DeepPaperNote](https://github.com/917Dhj/DeepPaperNote) — 单篇论文深读并生成 Obsidian 笔记；输出深度论文笔记。 `[AI 技能（Skill）]`
+- [Doc2X MCP](https://github.com/NoEdgeAI/doc2x-mcp) — 通过官方 Skill 调用 MCP，解析含公式和表格的论文 PDF、扫描件或图片。PDF 可导出 Markdown、LaTeX、DOCX 或 PDF v3 版面 JSON。需 Node.js 18+、MCP 客户端和 Doc2X API Key，云端解析按用量计费。 `[AI 技能 + 工具连接（Skill + MCP）]`
+- [JournalCompass（期刊罗盘）](https://journalcompass.com/) — 免登录按刊名或 ISSN 查询期刊，并按分区、影响因子、审稿周期、版面费（APC）和开放获取（OA）筛选。选刊助手可根据摘要或 PDF 生成候选期刊清单。 `[工具]`
 - [latex-arxiv-SKILL](https://github.com/appautomaton/latex-arxiv-SKILL) — LaTeX论文流程与BibTeX引用核验 `[AI 技能（Skill）]`
 - [manubot](https://github.com/manubot/manubot) — 自动获取引用元数据并支持可版本管理的学术写作 `[工具包]`
 - [Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) — Nature 投稿全流程：初稿、引用、Data Availability、返修；输出投稿检查/回复信/修订稿。 `[AI 技能（Skill）]`

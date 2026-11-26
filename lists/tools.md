@@ -3,7 +3,7 @@
 
 [返回首页](../README.md) · [收录说明](../DATA.md)
 
-共 37 项，按科研任务分类。Skill + MCP 已放入首页 Skill 清单；条目不重复计数。
+共 38 项，按科研任务分类。Skill + MCP 已放入首页 Skill 清单；条目不重复计数。
 
 类型与用途来自目录记录，未逐项重新实测。标有 `目录来源` 的链接仍待补充原项目地址。费用、依赖和可用性以原项目说明为准。
 
@@ -21,8 +21,9 @@
 - [PaperStructure](https://github.com/yuanjua/PaperStructure) — 使用ONNX模型将论文PDF转Markdown `[命令行工具（CLI）]`
 
 <a id="writing"></a>
-### 论文读写（1）
+### 论文读写（2）
 
+- [JournalCompass（期刊罗盘）](https://journalcompass.com/) — 免登录按刊名或 ISSN 查询期刊，并按分区、影响因子、审稿周期、版面费（APC）和开放获取（OA）筛选。选刊助手可根据摘要或 PDF 生成候选期刊清单。 `[工具]`
 - [manubot](https://github.com/manubot/manubot) — 自动获取引用元数据并支持可版本管理的学术写作 `[工具包]`
 
 <a id="data"></a>

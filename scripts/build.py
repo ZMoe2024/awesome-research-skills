@@ -192,7 +192,7 @@ def render(payload, topics, supplement):
 - [其他科研工具](lists/tools.md)：{counts['tools']} 项。
 {extra_links}
 
-前三份清单对应网站展示的 {len(items)} 项，并补充科研工作台、研究模板和延伸工具。不同分组不重复计数。
+前三份清单合计 {len(items)} 项。科研工作台、研究模板和延伸工具单独列出，各组互不重复。
 
 ## 从这里开始
 
@@ -278,7 +278,7 @@ def render(payload, topics, supplement):
     all_body = ['# 科研资源总表', '', '[返回首页](../README.md) · [数据与核对说明](../DATA.md)', '',
                 f'{record_total - extra_counts["review"]} 项资源，另有 {extra_counts["review"]} 条候选与待核验记录。', '',
                 '用途与类型沿用收录信息，未逐项重新实测；候选和原站排除项保留状态说明。', '',
-                '## 原站展示资源', '', sections(items)]
+                '<a id="原站展示资源"></a>', '## 科研工具与技能', '', sections(items)]
     for key, title in SUPPLEMENT_SECTIONS.items():
         if key in {'directories', 'notes'}:
             continue
